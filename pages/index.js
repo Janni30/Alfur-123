@@ -132,60 +132,60 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="single-feature-box uppp-1">
-                <div className="feature-box-inner">
-                  <div className="feature-icon1">
+              <div className="single-feature-box0">
+                <div className="feature-box-inner0">
+                  <div className="feature-icon10">
                     <img src="assets/images/resource/main3.png" alt />
                   </div>
-                  <div className="feature-title">
+                  <div className="feature-title0">
                     <h3> Quran </h3>
                   </div>
-                  <div className="feature-text">
+                  <div className="feature-text0">
                     <p>
                       {" "}
                       Appropriately enhance principle-cent standards in
                       platforms. Credibly orch popular services.{" "}
                     </p>
                   </div>
-                  <div className="feature-bar" />
+                  <div className="feature-bar0" />
                 </div>
                 {/* feature back */}
-                <div className="consen-feature-back">
-                  <div className="feature-back-title">
+                <div className="consen-feature-back0">
+                  <div className="feature-back-title0">
                     <h3> Quran </h3>
                     <h2> Quran Course </h2>
                   </div>
-                  <div className="feature-back-icon">
+                  <div className="feature-back-icon0">
                     <a href="#">+</a>
                   </div>
                 </div>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
-              <div className="single-feature-box uppp-1">
-                <div className="feature-box-inner">
-                  <div className="feature-icon1">
+              <div className="single-feature-box1">
+                <div className="feature-box-inner1">
+                  <div className="feature-icon11">
                     <img src="assets/images/resource/main2.png" alt />
                   </div>
-                  <div className="feature-title">
+                  <div className="feature-title1">
                     <h3> Arabic </h3>
                   </div>
-                  <div className="feature-text">
+                  <div className="feature-text1">
                     <p>
                       {" "}
                       Appropriately enhance principle-cent standards in
                       platforms. Credibly orch popular services.{" "}
                     </p>
                   </div>
-                  <div className="feature-bar" />
+                  <div className="feature-bar1" />
                 </div>
                 {/* feature back */}
-                <div className="consen-feature-back">
-                  <div className="feature-back-title">
+                <div className="consen-feature-back1">
+                  <div className="feature-back-title1">
                     <h3> Arabic </h3>
                     <h2> Arabic Course </h2>
                   </div>
-                  <div className="feature-back-icon">
+                  <div className="feature-back-icon1">
                     <a href="#">+</a>
                   </div>
                 </div>
@@ -548,9 +548,13 @@ const Index = () => {
                   {" "}
                   For Choose <span>Alfurqan</span> Before know who we are?{" "}
                 </h4>
-                <p>
-                We have customized and flexible online study courses suitable for all family members. Also, we have an attractive and informative crash course for kids and teens
-                </p>
+              <p>We have customized and flexible online study courses suitable for all family members. Also, we have an attractive and informative crash course for kids and teens</p>
+              <p><span>Comprehensive Arabic Courses </span>from beginner to advanced, focusing on grammar, vocabulary, and Modern Standard Arabic.</p>
+              <p><span>Quran Recitation & Hifz Programs</span> with Tajweed rules and guided memorization for proper Quranic recitation.</p>
+              <p><span>Tajweed Courses </span>offering both theoretical understanding and practical recitation coaching.</p>
+              <p><span>Arabic for Quranic Understanding, </span>focusing on essential Quranic vocabulary and context-based learning.</p>
+              <p><span>Interactive Learning </span>with live sessions, feedback, and practice exercises to track progress.</p>
+              <p><span>Flexible Learning Options,</span> including online classes and recorded sessions to suit different schedules.</p>
               </div>
               <div className="about-button p-4">
                   <Link legacyBehavior href="#">
