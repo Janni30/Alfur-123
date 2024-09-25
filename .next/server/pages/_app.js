@@ -1,85 +1,200 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
+/***/ 3859:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _src_ConsenHead__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/src/ConsenHead */ \"./src/ConsenHead.js\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! aos */ \"aos\");\n/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! aos/dist/aos.css */ \"./node_modules/aos/dist/aos.css\");\n/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_5__);\n\n\n\n\n\n // Import AOS styles\nconst App = ({ Component , pageProps  })=>{\n    const [loading, setLoading] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(true);\n    (0,react__WEBPACK_IMPORTED_MODULE_3__.useEffect)(()=>{\n        // Initialize AOS\n        aos__WEBPACK_IMPORTED_MODULE_4___default().init({\n            duration: 1000,\n            easing: \"ease-in-out\",\n            once: true\n        });\n        // Set a timeout to simulate loading\n        const timer = setTimeout(()=>{\n            setLoading(false);\n        }, 1500);\n        // Cleanup the timer if the component is unmounted\n        return ()=>clearTimeout(timer);\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_3__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_ConsenHead__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\pages\\\\_app.js\",\n                lineNumber: 29,\n                columnNumber: 7\n            }, undefined),\n            !loading && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\pages\\\\_app.js\",\n                lineNumber: 30,\n                columnNumber: 20\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\pages\\\\_app.js\",\n        lineNumber: 28,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBMEM7QUFDWjtBQUN3QjtBQUNoQztBQUNJLENBQUMsb0JBQW9CO0FBRS9DLE1BQU1LLE1BQU0sQ0FBQyxFQUFFQyxVQUFTLEVBQUVDLFVBQVMsRUFBRSxHQUFLO0lBQ3hDLE1BQU0sQ0FBQ0MsU0FBU0MsV0FBVyxHQUFHUCwrQ0FBUUEsQ0FBQyxJQUFJO0lBRTNDQyxnREFBU0EsQ0FBQyxJQUFNO1FBQ2QsaUJBQWlCO1FBQ2pCQywrQ0FBUSxDQUFDO1lBQ1BPLFVBQVU7WUFDVkMsUUFBUTtZQUNSQyxNQUFNLElBQUk7UUFDWjtRQUVBLG9DQUFvQztRQUNwQyxNQUFNQyxRQUFRQyxXQUFXLElBQU07WUFDN0JOLFdBQVcsS0FBSztRQUNsQixHQUFHO1FBRUgsa0RBQWtEO1FBQ2xELE9BQU8sSUFBTU8sYUFBYUY7SUFDNUIsR0FBRyxFQUFFO0lBRUwscUJBQ0UsOERBQUNiLDJDQUFRQTs7MEJBQ1AsOERBQUNELHVEQUFVQTs7Ozs7WUFDVixDQUFDUSx5QkFBVyw4REFBQ0Y7Z0JBQVcsR0FBR0MsU0FBUzs7Ozs7Ozs7Ozs7O0FBRzNDO0FBRUEsaUVBQWVGLEdBQUdBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jb25zZW4tcmVhY3QvLi9wYWdlcy9fYXBwLmpzP2UwYWQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IENvbnNlbkhlYWQgZnJvbSBcIkAvc3JjL0NvbnNlbkhlYWRcIjtcbmltcG9ydCBcIkAvc3R5bGVzL2dsb2JhbHMuY3NzXCI7XG5pbXBvcnQgeyBGcmFnbWVudCwgdXNlU3RhdGUsIHVzZUVmZmVjdCB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IEFPUyBmcm9tIFwiYW9zXCI7XG5pbXBvcnQgXCJhb3MvZGlzdC9hb3MuY3NzXCI7IC8vIEltcG9ydCBBT1Mgc3R5bGVzXG5cbmNvbnN0IEFwcCA9ICh7IENvbXBvbmVudCwgcGFnZVByb3BzIH0pID0+IHtcbiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUodHJ1ZSk7XG5cbiAgdXNlRWZmZWN0KCgpID0+IHtcbiAgICAvLyBJbml0aWFsaXplIEFPU1xuICAgIEFPUy5pbml0KHtcbiAgICAgIGR1cmF0aW9uOiAxMDAwLCAvLyBBbmltYXRpb24gZHVyYXRpb25cbiAgICAgIGVhc2luZzogJ2Vhc2UtaW4tb3V0JywgLy8gRWFzaW5nIGZ1bmN0aW9uXG4gICAgICBvbmNlOiB0cnVlLCAvLyBXaGV0aGVyIGFuaW1hdGlvbiBzaG91bGQgaGFwcGVuIG9ubHkgb25jZVxuICAgIH0pO1xuXG4gICAgLy8gU2V0IGEgdGltZW91dCB0byBzaW11bGF0ZSBsb2FkaW5nXG4gICAgY29uc3QgdGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHtcbiAgICAgIHNldExvYWRpbmcoZmFsc2UpO1xuICAgIH0sIDE1MDApO1xuXG4gICAgLy8gQ2xlYW51cCB0aGUgdGltZXIgaWYgdGhlIGNvbXBvbmVudCBpcyB1bm1vdW50ZWRcbiAgICByZXR1cm4gKCkgPT4gY2xlYXJUaW1lb3V0KHRpbWVyKTtcbiAgfSwgW10pO1xuXG4gIHJldHVybiAoXG4gICAgPEZyYWdtZW50PlxuICAgICAgPENvbnNlbkhlYWQgLz5cbiAgICAgIHshbG9hZGluZyAmJiA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+fVxuICAgIDwvRnJhZ21lbnQ+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBBcHA7XG4iXSwibmFtZXMiOlsiQ29uc2VuSGVhZCIsIkZyYWdtZW50IiwidXNlU3RhdGUiLCJ1c2VFZmZlY3QiLCJBT1MiLCJBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJsb2FkaW5nIiwic2V0TG9hZGluZyIsImluaXQiLCJkdXJhdGlvbiIsImVhc2luZyIsIm9uY2UiLCJ0aW1lciIsInNldFRpbWVvdXQiLCJjbGVhclRpbWVvdXQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ _app)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+;// CONCATENATED MODULE: external "next/head"
+const head_namespaceObject = require("next/head");
+var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
+;// CONCATENATED MODULE: ./src/ConsenHead.js
+
+
+const ConsenHead = ()=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                charSet: "UTF-8"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                httpEquiv: "x-ua-compatible",
+                content: "ie=edge"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("title", {
+                children: "Alfurqan"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "description",
+                content: ""
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "viewport",
+                content: "width=device-width, initial-scale=1"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "icon",
+                type: "image/png",
+                sizes: "56x56",
+                href: "assets/images/fav-icon/fav.png"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/bootstrap.min.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/animate.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/animated-text.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/all.min.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/flaticon.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/theme-default.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/meanmenu.min.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/owl.transitions.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "venobox/venobox.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/bootstrap-icons.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/style.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/magnific-popup.css",
+                type: "text/css",
+                media: "all"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "stylesheet",
+                href: "assets/css/responsive.css",
+                type: "text/css",
+                media: "all"
+            })
+        ]
+    });
+};
+/* harmony default export */ const src_ConsenHead = (ConsenHead);
+
+// EXTERNAL MODULE: ./styles/globals.css
+var globals = __webpack_require__(6764);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
+;// CONCATENATED MODULE: external "aos"
+const external_aos_namespaceObject = require("aos");
+var external_aos_default = /*#__PURE__*/__webpack_require__.n(external_aos_namespaceObject);
+// EXTERNAL MODULE: ./node_modules/aos/dist/aos.css
+var aos = __webpack_require__(1759);
+;// CONCATENATED MODULE: ./pages/_app.js
+
+
+
+
+
+ // Import AOS styles
+const App = ({ Component , pageProps  })=>{
+    const [loading, setLoading] = (0,external_react_.useState)(true);
+    (0,external_react_.useEffect)(()=>{
+        // Initialize AOS
+        external_aos_default().init({
+            duration: 1000,
+            easing: "ease-in-out",
+            once: true
+        });
+        // Set a timeout to simulate loading
+        const timer = setTimeout(()=>{
+            setLoading(false);
+        }, 1500);
+        // Cleanup the timer if the component is unmounted
+        return ()=>clearTimeout(timer);
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(src_ConsenHead, {}),
+            !loading && /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                ...pageProps
+            })
+        ]
+    });
+};
+/* harmony default export */ const _app = (App);
+
 
 /***/ }),
 
-/***/ "./src/ConsenHead.js":
-/*!***************************!*\
-  !*** ./src/ConsenHead.js ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst ConsenHead = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                charSet: \"UTF-8\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 5,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                httpEquiv: \"x-ua-compatible\",\n                content: \"ie=edge\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 6,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                children: \"Alfurqan\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"description\",\n                content: \"\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 8,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"viewport\",\n                content: \"width=device-width, initial-scale=1\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"icon\",\n                type: \"image/png\",\n                sizes: \"56x56\",\n                href: \"assets/images/fav-icon/fav.png\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/bootstrap.min.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 18,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/animate.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 32,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/animated-text.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 39,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/all.min.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 46,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/flaticon.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 53,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/theme-default.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 60,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/meanmenu.min.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 67,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/owl.transitions.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 74,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"venobox/venobox.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 81,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/bootstrap-icons.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 88,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/style.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 95,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/magnific-popup.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 102,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"stylesheet\",\n                href: \"assets/css/responsive.css\",\n                type: \"text/css\",\n                media: \"all\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n                lineNumber: 109,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\JK\\\\Desktop\\\\Alfurqan\\\\consen\\\\src\\\\ConsenHead.js\",\n        lineNumber: 4,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ConsenHead);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvQ29uc2VuSGVhZC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBNkI7QUFDN0IsTUFBTUMsYUFBYSxJQUFNO0lBQ3ZCLHFCQUNFLDhEQUFDRCxrREFBSUE7OzBCQUNILDhEQUFDRTtnQkFBS0MsU0FBUTs7Ozs7OzBCQUNkLDhEQUFDRDtnQkFBS0UsV0FBVTtnQkFBa0JDLFNBQVE7Ozs7OzswQkFDMUMsOERBQUNDOzBCQUFNOzs7Ozs7MEJBQ1AsOERBQUNKO2dCQUFLSyxNQUFLO2dCQUFjRixTQUFROzs7Ozs7MEJBQ2pDLDhEQUFDSDtnQkFBS0ssTUFBSztnQkFBV0YsU0FBUTs7Ozs7OzBCQUU5Qiw4REFBQ0c7Z0JBQ0NDLEtBQUk7Z0JBQ0pDLE1BQUs7Z0JBQ0xDLE9BQU07Z0JBQ05DLE1BQUs7Ozs7OzswQkFHUCw4REFBQ0o7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFVUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFHUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFHUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFHUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFHUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFHUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFHUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFHUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFHUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFHUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFHUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7OzswQkFHUiw4REFBQ0w7Z0JBQ0NDLEtBQUk7Z0JBQ0pHLE1BQUs7Z0JBQ0xGLE1BQUs7Z0JBQ0xHLE9BQU07Ozs7Ozs7Ozs7OztBQUlkO0FBQ0EsaUVBQWVaLFVBQVVBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9jb25zZW4tcmVhY3QvLi9zcmMvQ29uc2VuSGVhZC5qcz9kNmFkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gXCJuZXh0L2hlYWRcIjtcclxuY29uc3QgQ29uc2VuSGVhZCA9ICgpID0+IHtcclxuICByZXR1cm4gKFxyXG4gICAgPEhlYWQ+XHJcbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJVVEYtOFwiIC8+XHJcbiAgICAgIDxtZXRhIGh0dHBFcXVpdj1cIngtdWEtY29tcGF0aWJsZVwiIGNvbnRlbnQ9XCJpZT1lZGdlXCIgLz5cclxuICAgICAgPHRpdGxlPkFsZnVycWFuPC90aXRsZT5cclxuICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD1cIlwiIC8+XHJcbiAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MVwiIC8+XHJcbiAgICAgIHsvKiBGYXZpY29uICovfVxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIHJlbD1cImljb25cIlxyXG4gICAgICAgIHR5cGU9XCJpbWFnZS9wbmdcIlxyXG4gICAgICAgIHNpemVzPVwiNTZ4NTZcIlxyXG4gICAgICAgIGhyZWY9XCJhc3NldHMvaW1hZ2VzL2Zhdi1pY29uL2Zhdi5wbmdcIlxyXG4gICAgICAvPlxyXG4gICAgICB7LyogYm9vdHN0cmFwIENTUyAqL31cclxuICAgICAgPGxpbmtcclxuICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy9ib290c3RyYXAubWluLmNzc1wiXHJcbiAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcclxuICAgICAgICBtZWRpYT1cImFsbFwiXHJcbiAgICAgIC8+XHJcbiAgICAgIHsvKiBjYXJvdXNlbCBDU1MgKi99XHJcbiAgICAgIHsvKiA8bGlua1xyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAgIGhyZWY9XCJhc3NldHMvY3NzL293bC5jYXJvdXNlbC5taW4uY3NzXCJcclxuICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxyXG4gICAgICAgIG1lZGlhPVwiYWxsXCJcclxuICAgICAgLz4gKi99XHJcbiAgICAgIHsvKiBhbmltYXRlIENTUyAqL31cclxuICAgICAgPGxpbmtcclxuICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy9hbmltYXRlLmNzc1wiXHJcbiAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcclxuICAgICAgICBtZWRpYT1cImFsbFwiXHJcbiAgICAgIC8+XHJcbiAgICAgIHsvKiBhbmltYXRlZC10ZXh0IENTUyAqL31cclxuICAgICAgPGxpbmtcclxuICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy9hbmltYXRlZC10ZXh0LmNzc1wiXHJcbiAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcclxuICAgICAgICBtZWRpYT1cImFsbFwiXHJcbiAgICAgIC8+XHJcbiAgICAgIHsvKiBmb250LWF3ZXNvbWUgQ1NTICovfVxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAgIGhyZWY9XCJhc3NldHMvY3NzL2FsbC5taW4uY3NzXCJcclxuICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxyXG4gICAgICAgIG1lZGlhPVwiYWxsXCJcclxuICAgICAgLz5cclxuICAgICAgey8qIGZvbnQtZmxhdGljb24gQ1NTICovfVxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAgIGhyZWY9XCJhc3NldHMvY3NzL2ZsYXRpY29uLmNzc1wiXHJcbiAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcclxuICAgICAgICBtZWRpYT1cImFsbFwiXHJcbiAgICAgIC8+XHJcbiAgICAgIHsvKiB0aGVtZS1kZWZhdWx0IENTUyAqL31cclxuICAgICAgPGxpbmtcclxuICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy90aGVtZS1kZWZhdWx0LmNzc1wiXHJcbiAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcclxuICAgICAgICBtZWRpYT1cImFsbFwiXHJcbiAgICAgIC8+XHJcbiAgICAgIHsvKiBtZWFubWVudSBDU1MgKi99XHJcbiAgICAgIDxsaW5rXHJcbiAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXHJcbiAgICAgICAgaHJlZj1cImFzc2V0cy9jc3MvbWVhbm1lbnUubWluLmNzc1wiXHJcbiAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcclxuICAgICAgICBtZWRpYT1cImFsbFwiXHJcbiAgICAgIC8+XHJcbiAgICAgIHsvKiB0cmFuc2l0aW9ucyBDU1MgKi99XHJcbiAgICAgIDxsaW5rXHJcbiAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXHJcbiAgICAgICAgaHJlZj1cImFzc2V0cy9jc3Mvb3dsLnRyYW5zaXRpb25zLmNzc1wiXHJcbiAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcclxuICAgICAgICBtZWRpYT1cImFsbFwiXHJcbiAgICAgIC8+XHJcbiAgICAgIHsvKiB2ZW5vYm94IENTUyAqL31cclxuICAgICAgPGxpbmtcclxuICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICBocmVmPVwidmVub2JveC92ZW5vYm94LmNzc1wiXHJcbiAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcclxuICAgICAgICBtZWRpYT1cImFsbFwiXHJcbiAgICAgIC8+XHJcbiAgICAgIHsvKiBib290c3RyYXAgaWNvbnMgKi99XHJcbiAgICAgIDxsaW5rXHJcbiAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXHJcbiAgICAgICAgaHJlZj1cImFzc2V0cy9jc3MvYm9vdHN0cmFwLWljb25zLmNzc1wiXHJcbiAgICAgICAgdHlwZT1cInRleHQvY3NzXCJcclxuICAgICAgICBtZWRpYT1cImFsbFwiXHJcbiAgICAgIC8+XHJcbiAgICAgIHsvKiBNYWluIFN0eWxlIENTUyAqL31cclxuICAgICAgPGxpbmtcclxuICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICBocmVmPVwiYXNzZXRzL2Nzcy9zdHlsZS5jc3NcIlxyXG4gICAgICAgIHR5cGU9XCJ0ZXh0L2Nzc1wiXHJcbiAgICAgICAgbWVkaWE9XCJhbGxcIlxyXG4gICAgICAvPlxyXG4gICAgICB7LyogTWFpbiBTdHlsZSBDU1MgKi99XHJcbiAgICAgIDxsaW5rXHJcbiAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXHJcbiAgICAgICAgaHJlZj1cImFzc2V0cy9jc3MvbWFnbmlmaWMtcG9wdXAuY3NzXCJcclxuICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxyXG4gICAgICAgIG1lZGlhPVwiYWxsXCJcclxuICAgICAgLz5cclxuICAgICAgey8qIHJlc3BvbnNpdmUgQ1NTICovfVxyXG4gICAgICA8bGlua1xyXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAgIGhyZWY9XCJhc3NldHMvY3NzL3Jlc3BvbnNpdmUuY3NzXCJcclxuICAgICAgICB0eXBlPVwidGV4dC9jc3NcIlxyXG4gICAgICAgIG1lZGlhPVwiYWxsXCJcclxuICAgICAgLz5cclxuICAgIDwvSGVhZD5cclxuICApO1xyXG59O1xyXG5leHBvcnQgZGVmYXVsdCBDb25zZW5IZWFkO1xyXG4iXSwibmFtZXMiOlsiSGVhZCIsIkNvbnNlbkhlYWQiLCJtZXRhIiwiY2hhclNldCIsImh0dHBFcXVpdiIsImNvbnRlbnQiLCJ0aXRsZSIsIm5hbWUiLCJsaW5rIiwicmVsIiwidHlwZSIsInNpemVzIiwiaHJlZiIsIm1lZGlhIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/ConsenHead.js\n");
-
-/***/ }),
-
-/***/ "./node_modules/aos/dist/aos.css":
-/*!***************************************!*\
-  !*** ./node_modules/aos/dist/aos.css ***!
-  \***************************************/
+/***/ 1759:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ "./styles/globals.css":
-/*!****************************!*\
-  !*** ./styles/globals.css ***!
-  \****************************/
+/***/ 6764:
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ "aos":
-/*!**********************!*\
-  !*** external "aos" ***!
-  \**********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("aos");
-
-/***/ }),
-
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 6689:
 /***/ ((module) => {
 
 "use strict";
@@ -87,14 +202,11 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -105,7 +217,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
+var __webpack_exports__ = (__webpack_exec__(3859));
 module.exports = __webpack_exports__;
 
 })();
