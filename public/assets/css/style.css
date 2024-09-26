@@ -7000,9 +7000,8 @@ ul.tabs-inner-list li i {
 
 .pricing-card {
   background: #fff;
-  border-radius: 8px;
   padding: 20px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -8480,18 +8479,78 @@ p.text-center {
 }
 
 .service-card {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  /* background: #fff; */
+  background-image: url(../img/alfshape1.png);
+  /* border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
   padding: 20px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  width:280px;
+  height:280px;
+
+}
+
+.padding{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.service-card2 {
+  /* background: #fff; */
+  background-image: url(../img/ALF\ Shape2.png);
+  /* border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  width:280px;
+  height:280px;
+  margin-top: 12px;
+}
+
+.service-card3 {
+  /* background: #fff; */
+  background-image: url(../img/ALF\ Shape3.png);
+  /* border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  width:280px;
+  height:280px;
 }
 
 .service-card h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.service-card2 h3 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.service-card3 h3 {
+  font-size: 1rem;
   color: #333;
   margin-bottom: 10px;
 }
@@ -8500,12 +8559,12 @@ p.text-center {
   color: #555;
 }
 
-.service-card:hover {
+/* .service-card:hover {
   transform: translateY(-10px);
     box-shadow: 0 4px 20px #000000;
-}
+} */
 
-.service-card::before {
+/* .service-card::before {
   content: '';
   position: absolute;
   top: 0;
@@ -8521,11 +8580,15 @@ p.text-center {
 
 .service-card:hover::before {
   transform: translateX(-50%) scale(1);
-}
+} */
 
 .service-card h3,
 .service-card p {
   position: relative;
   z-index: 1;
+  
 }
 
+.background{
+  background-image: url(/public/assets/img/ALFShape1.png);
+}

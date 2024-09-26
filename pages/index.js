@@ -105,7 +105,7 @@ const Index = () => {
               <div className="single-feature-box">
                 <div className="feature-box-inner">
                   <div className="feature-icon1">
-                    <img src="assets/images/resource/main1.png" alt />
+                    <img src="assets/img/art.png"  height={70}alt />
                   </div>
                   <div className="feature-title">
                     <h3> Tajweed </h3>
@@ -135,7 +135,7 @@ const Index = () => {
               <div className="single-feature-box0">
                 <div className="feature-box-inner0">
                   <div className="feature-icon10">
-                    <img src="assets/images/resource/main3.png" alt />
+                    <img src="assets/img/quran.png" height={70} alt />
                   </div>
                   <div className="feature-title0">
                     <h3> Quran </h3>
@@ -165,7 +165,7 @@ const Index = () => {
               <div className="single-feature-box1">
                 <div className="feature-box-inner1">
                   <div className="feature-icon11">
-                    <img src="assets/images/resource/main2.png" alt />
+                    <img src="assets/img/person.png" height={70} alt />
                   </div>
                   <div className="feature-title1">
                     <h3> Arabic </h3>
@@ -738,59 +738,60 @@ const Index = () => {
     
    
     <div className="services-item-wrap">
-    <div className="row">
-    <div className="col-md-4">
-      <div className="service-card">
-        <div className="timeline-badge danger" data-aos="fade-in"></div>
-        <div className="timeline-panel" data-aos="fade-right">
-          <div className="timeline-info">
-            <img
-              src="https://www.pixel-studios.com/static/assets/images/smo/icn-1.png"
-              className="img-responsive"
-              alt="Understand Your Customers"
-            />
-            <h3>Understand Your Customers</h3>
-            <p>Discover needs, likes, and behaviour profiles of your customers</p>
+      <div className="row">
+      <div className="col-md-4 padding">
+        <div className="service-card" data-aos="fade-right">
+        <div className="timeline-badge danger background" data-aos="fade-in"></div>
+          <div className="timeline-panel" data-aos="fade-right">
+            <div className="timeline-info mt-20 ml-10">
+              <img
+                src="https://www.pixel-studios.com/static/assets/images/smo/icn-1.png"
+                className="img-responsive p-2"
+                alt="Understand Your Customers" width={60}
+              />
+              <h3>Understand Your Customers</h3>
+              <p>Discover needs, likes, and behaviour profiles of your customers</p>
+            </div>
           </div>
         </div>
       </div>
-      </div>
-      <div className="col-md-4">
-      <div className="service-card">
-        <div className="timeline-badge theme-gradient info" data-aos="fade-in"></div>
-        <div className="timeline-panel clearfix" data-aos="fade-left">
-          <div className="timeline-info">
-            <img
-              src="https://www.pixel-studios.com/static/assets/images/smo/icn-2.png"
-              className="img-responsive"
-              alt="Choose Social Platforms"
-            />
-            <h3>Choose Social Platforms</h3>
-            <p>Consider the intention and how it aligns with our brand</p>
-            <br/>
+
+        <div className="col-md-4 padding">
+        <div className="service-card2" data-aos="fade-left">
+          <div className="timeline-badge theme-gradient info" data-aos="fade-in"></div>
+          <div className="timeline-panel clearfix" data-aos="fade-left">
+            <div className="timeline-info mt-40 ml-10">
+              <img
+                src="https://www.pixel-studios.com/static/assets/images/smo/icn-2.png"
+                className="img-responsive p-2"
+                alt="Choose Social Platforms" width={60}
+              />
+              <h3>Choose Social Platforms</h3>
+              <p>Consider the intention and how it aligns with our brand</p>
+              <br/>
+            </div>
           </div>
         </div>
-      </div>
-      </div>
-      <div className="col-md-4">
-      <div className="service-card">
-        <div className="timeline-badge theme-gradient danger" data-aos="fade-in"></div>
-        <div className="timeline-panel" data-aos="fade-right">
-          <div className="timeline-info">
-            <img
-              src="https://www.pixel-studios.com/static/assets/images/smo/icn-3.png"
-              className="img-responsive"
-              alt="Create Appealing Profile"
-            />
-            <h3>Create Appealing Profile</h3>
-            <p>Blend-in or Stand-out? Mix design & copy intelligently</p>
-            <br/>
+        </div>
+        <div className="col-md-4 padding">
+        <div className="service-card3" data-aos="fade-right">
+          <div className="timeline-badge theme-gradient danger" data-aos="fade-in"></div>
+            <div className="timeline-panel" data-aos="fade-right">
+              <div className="timeline-info mt-20 ml-10">
+                <img
+                  src="https://www.pixel-studios.com/static/assets/images/smo/icn-3.png"
+                  className="img-responsive p-2"
+                  alt="Create Appealing Profile" width={60}
+                />
+                <h3>Create Appealing Profile</h3>
+                <p>Blend-in or Stand-out? Mix design & copy intelligently</p>
+                <br/>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
-  </div>
 </div>
 </div>
 

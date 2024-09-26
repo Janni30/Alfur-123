@@ -16,7 +16,7 @@ const Pricing = () => {
       {/*==================================================*/}
       {/* Start Service Section */}
       {/*===================================================*/}
-      <div className="pricing-section">
+      <div className="pricing-section" >
   <div className="container" >
     <div className="row" >
       <div className="col-lg-12">
@@ -51,12 +51,12 @@ const Pricing = () => {
          {/* Simple Plan */}
          
          <div className="col-md-3">
-    <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
+    <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)",borderRadius:'10px 10px 0px 0px'}}>
         <h3>Simple</h3>
         <div className="pricing-item-text mb-15">
     <span className="currency" style={{ color: 'white' }}>$</span>
     <span className="tk" style={{ color: 'white' }}>3</span>
-    <span className="month" style={{ color: 'white' }}>/ month</span>
+    <span className="month" style={{color:'white'}}>/ month</span>
 </div>
 
 
@@ -68,7 +68,7 @@ const Pricing = () => {
 
      {/* Essential Plan */}
      <div className="col-md-3">
-         <div className="pricing-card">
+         <div className="pricing-card" style={{borderRadius:'10px 10px 0px 0px'}}>
            <h3>Essential</h3>
            <div className="pricing-item-text mb-15">
              <span className="currency">$</span>
@@ -85,7 +85,7 @@ const Pricing = () => {
 
        {/* Premium Plan */}
        <div className="col-md-3">
-         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
+         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)",borderRadius:'10px 10px 0px 0px'}}>
            <h3>Premium</h3>
            <div className="pricing-item-text mb-15" >
              <span className="currency" style={{color:'white'}}>$</span>
@@ -103,7 +103,7 @@ const Pricing = () => {
 
        {/* Elite Plan */}
        <div className="col-md-3">
-         <div className="pricing-card">
+         <div className="pricing-card" style={{borderRadius:'10px 10px 0px 0px'}}>
            <h3>Elite</h3>
            <div className="pricing-item-text mb-15">
              <span className="currency">$</span>
@@ -119,9 +119,9 @@ const Pricing = () => {
        </div>
        </div>
        
-       <div className="row">
+       <div className="row" style={{backgroundColor:'#e63974', width:'100%',marginLeft:'0px'}}>
          <div className="col-lg-12 text-center p-3">
-               <p>TEACHERS</p>
+               <p className="text-white">TEACHERS</p>
          </div>
        </div>
        <div className="row">
@@ -170,9 +170,9 @@ const Pricing = () => {
          </div>
        </div>
        </div>
-       <div className="row">
+       <div className="row" style={{backgroundColor:'#e63974', width:'100%',marginLeft:'0px'}}>
          <div className="col-lg-12 text-center p-3">
-               <p>ACADEMICS</p>
+               <p className="text-white">ACADEMICS</p>
          </div>
        </div>
        <div className="row">
@@ -221,9 +221,9 @@ const Pricing = () => {
          </div>
        </div>
        </div>
-       <div className="row">
+       <div className="row" style={{backgroundColor:'#e63974', width:'100%',marginLeft:'0px'}}>
          <div className="col-lg-12 text-center p-3">
-               <p>TOOLS & LEARNING MATERIAL</p>
+               <p className="text-white">TOOLS & LEARNING MATERIAL</p>
          </div>
        </div>
        <div className="row">
@@ -272,9 +272,9 @@ const Pricing = () => {
          </div>
        </div>
        </div>
-       <div className="row">
+       <div className="row" style={{backgroundColor:'#e63974', width:'100%',marginLeft:'0px'}}>
          <div className="col-lg-12 text-center p-3">
-               <p>SCHEDULING</p>
+               <p className="text-white">SCHEDULING</p>
          </div>
        </div>
        <div className="row">
@@ -324,15 +324,15 @@ const Pricing = () => {
        </div>
      
        </div>
-       <div className="row">
+       <div className="row" style={{backgroundColor:'#e63974', width:'100%',marginLeft:'0px'}}>
          <div className="col-lg-12 text-center p-3">
-               <p>PROMOTIONS</p>
+               <p className="text-white">PROMOTIONS</p>
          </div>
        </div>
        <div className="row">
          {/* Simple Plan */}
        <div className="col-md-3">
-         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
+         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)",borderRadius:'0px 0px 10px 10px'}}>
           
            <p style={{color:'white'}}>2 Classes in Week</p>
            <p style={{color:'white'}}>Monthly Assessment</p>
@@ -343,7 +343,7 @@ const Pricing = () => {
 
      {/* Essential Plan */}
      <div className="col-md-3">
-         <div className="pricing-card">
+         <div className="pricing-card" style={{borderRadius:'0px 0px 10px 10px'}}>
           
            <p>3 Classes in Week</p>
            <p>Monthly Assessment</p>
@@ -354,7 +354,7 @@ const Pricing = () => {
 
        {/* Premium Plan */}
        <div className="col-md-3">
-         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
+         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)",borderRadius:'0px 0px 10px 10px'}}>
           
            <p style={{color:'white'}}>4 Classes in Week</p>
            <p style={{color:'white'}}>Monthly Assessment</p>
@@ -366,7 +366,7 @@ const Pricing = () => {
 
        {/* Elite Plan */}
        <div className="col-md-3">
-         <div className="pricing-card">
+         <div className="pricing-card" style={{borderRadius:'0px 0px 10px 10px'}}>
            
            <p>4 Classes in Week</p>
            <p>Monthly Assessment</p>
