@@ -7004,6 +7004,11 @@ ul.tabs-inner-list li i {
   /* margin-bottom: 15px; */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+.pricing-cards {
+  background: #fff;
+  padding: 20px;
+  /* margin-bottom: 15px; */
+}
 
 .pricing-btn a {
   background-color: #e63946;

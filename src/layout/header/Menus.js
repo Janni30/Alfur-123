@@ -30,7 +30,7 @@ export const DaskTopMenusMenus = () => {
         <ul className="sub-menus courses-menu-horizontal ">
           <div className="row">
             <li className="col">
-              <Link legacyBehavior href="/service-details">
+              <Link legacyBehavior href="/arabic">
                 <a className="">
                   <img src="assets/img/2.png" alt="Tajweed" width={200} className="p-20 align-middle justify-center ml-40"/>
                   <p className="mt-20 text-center">Tajweed Masterclass</p>
@@ -38,7 +38,7 @@ export const DaskTopMenusMenus = () => {
               </Link>
             </li>
             <li className="col">
-              <Link legacyBehavior href="#">
+              <Link legacyBehavior href="/quran">
                 <a>
                   <img src="assets/img/3.png" alt="" width={200} className="p-20 align-middle justify-center ml-40"/>
                   <p className="mt-20 text-center">Qur'an Memorization</p>
@@ -46,7 +46,7 @@ export const DaskTopMenusMenus = () => {
               </Link>
             </li>
             <li className="col">
-              <Link legacyBehavior href="#">
+              <Link legacyBehavior href="/tajweed">
                 <a>
                   <img src="assets/img/1.png" alt="" width={200} className="p-20 align-middle justify-center ml-40"/>
                   <p className="mt-20 text-center">Learn Arabic Language </p>

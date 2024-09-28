@@ -51,13 +51,13 @@ const Pricing = () => {
          {/* Simple Plan */}
          
          <div className="col-md-3">
-    <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)",borderRadius:'10px 10px 0px 0px'}}>
-        <h3>Simple</h3>
-        <div className="pricing-item-text mb-15">
-    <span className="currency" style={{ color: 'white' }}>$</span>
-    <span className="tk" style={{ color: 'white' }}>3</span>
-    <span className="month" style={{color:'white'}}>/ month</span>
-</div>
+          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)",borderRadius:'10px 10px 0px 0px'}}>
+              <h3>Simple</h3>
+              <div className="pricing-item-text mb-15">
+          <span className="currency" style={{ color: 'white' }}>$</span>
+          <span className="tk" style={{ color: 'white' }}>3</span>
+          <span className="month" style={{color:'white'}}>/ month</span>
+      </div>
 
 
         <div className="pricing-btn">
@@ -118,11 +118,224 @@ const Pricing = () => {
          </div>
        </div>
        </div>
+
+
+
+       <div className="row">
+         {/* Simple Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
+          
+         <p style={{color:"rgb(34, 56, 87, .0)"}}>Teacher</p>
+          
+         </div>
+       </div>
+
+     {/* Essential Plan */}
+     <div className="col-md-3">
+         <div className="pricing-cards">
+          
+           <p style={{color:'#fff'}}>TEACHER</p>
+           
+         </div>
+       </div>
+
+       {/* Premium Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
+          
+           
+         <p style={{color:'#ccc', marginLeft:'-85px',fontSize:'23px'}}><span style={{color:'#000',background:'#ccc', padding:'10px 1px 10px 10px',borderRadius:'10px 0px 0px 10px'}}>Tea</span><span style={{color:'#fff',background:'#000', padding:'10px 10px 10px 1px', borderRadius:'0px 10px 10px 0px'}}>cher</span> </p>
+         </div>
+       </div>
        
-       <div className="row" style={{backgroundColor:'#e63974', width:'100%',marginLeft:'0px'}}>
+
+       {/* Elite Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards">
+           
+         <p style={{color:"#fff"}}>Teacher</p>
+           
+         </div>
+       </div>
+       </div>
+       
+       {/* <div className="row" style={{backgroundColor:'#22385775', width:'100%',marginLeft:'0px'}}>
          <div className="col-lg-12 text-center p-3">
                <p className="text-white">TEACHERS</p>
          </div>
+       </div> */}
+       
+       <div className="row">
+         {/* Simple Plan */}
+       <div className="col-md-3">
+         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
+          
+           <p style={{color:'white'}}>2 Classes in Week</p>
+           <p style={{color:'white'}}>Monthly Assessment</p>
+           <p style={{color:'white'}}>Progress Report (Quarterly)</p>
+          
+         </div>
+       </div>
+
+     {/* Essential Plan */}
+     <div className="col-md-3">
+         <div className="pricing-card">
+          
+           <p>3 Classes in Week</p>
+           <p>Monthly Assessment</p>
+           <p>Progress Report (Quarterly)</p>
+           
+         </div>
+       </div>
+
+       {/* Premium Plan */}
+       <div className="col-md-3">
+         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
+          
+           <p style={{color:'white'}}>4 Classes in Week</p>
+           <p style={{color:'white'}}>Monthly Assessment</p>
+           <p style={{color:'white'}}>Progress Report (Quarterly)</p>
+          
+         </div>
+       </div>
+       
+
+       {/* Elite Plan */}
+       <div className="col-md-3">
+         <div className="pricing-card">
+           
+           <p>4 Classes in Week</p>
+           <p>Monthly Assessment</p>
+           <p>Progress Report (Quarterly)</p>
+           
+         </div>
+       </div>
+       </div>
+       <div className="row">
+         {/* Simple Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
+          
+         <p style={{color:"rgb(34, 56, 87, .0)"}}>Teacher</p>
+          
+         </div>
+       </div>
+
+     {/* Essential Plan */}
+     <div className="col-md-3">
+         <div className="pricing-cards">
+          
+           <p style={{color:'#fff'}}>TEACHER</p>
+           
+         </div>
+       </div>
+
+       {/* Premium Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
+          
+           
+         <p style={{color:'#ccc', marginLeft:'-85px',fontSize:'23px'}}><span style={{color:'#000',background:'#ccc', padding:'10px 1px 10px 10px',borderRadius:'10px 0px 0px 10px'}}>Aca</span><span style={{color:'#fff',background:'#000', padding:'10px 10px 10px 1px', borderRadius:'0px 10px 10px 0px'}}>demics</span> </p>
+         </div>
+       </div>
+       
+
+       {/* Elite Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards">
+           
+         <p style={{color:"#fff"}}>Teacher</p>
+           
+         </div>
+       </div>
+       </div>
+
+
+
+       <div className="row">
+         {/* Simple Plan */}
+       <div className="col-md-3">
+         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
+          
+           <p style={{color:'white'}}>2 Classes in Week</p>
+           <p style={{color:'white'}}>Monthly Assessment</p>
+           <p style={{color:'white'}}>Progress Report (Quarterly)</p>
+          
+         </div>
+       </div>
+
+     {/* Essential Plan */}
+     <div className="col-md-3">
+         <div className="pricing-card">
+          
+           <p>3 Classes in Week</p>
+           <p>Monthly Assessment</p>
+           <p>Progress Report (Quarterly)</p>
+           
+         </div>
+       </div>
+
+       {/* Premium Plan */}
+       <div className="col-md-3">
+         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
+          
+           <p style={{color:'white'}}>4 Classes in Week</p>
+           <p style={{color:'white'}}>Monthly Assessment</p>
+           <p style={{color:'white'}}>Progress Report (Quarterly)</p>
+          
+         </div>
+       </div>
+       
+
+       {/* Elite Plan */}
+       <div className="col-md-3">
+         <div className="pricing-card">
+           
+           <p>4 Classes in Week</p>
+           <p>Monthly Assessment</p>
+           <p>Progress Report (Quarterly)</p>
+           
+         </div>
+       </div>
+       </div>
+       <div className="row">
+         {/* Simple Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
+          
+         <p style={{color:"rgb(34, 56, 87, .0)"}}>Teacher</p>
+          
+         </div>
+       </div>
+
+     {/* Essential Plan */}
+     <div className="col-md-3">
+         <div className="pricing-cards">
+          
+           <p style={{color:'#fff'}}>TEACHER</p>
+           
+         </div>
+       </div>
+
+       {/* Premium Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
+          
+           
+         <p style={{color:'#ccc', marginLeft:'-165px',fontSize:'23px'}}><span style={{color:'#000',background:'#ccc', padding:'10px 1px 10px 10px',borderRadius:'10px 0px 0px 10px'}}>Tools & Lea</span><span style={{color:'#fff',background:'#000', padding:'10px 10px 10px 1px', borderRadius:'0px 10px 10px 0px'}}>rning Materials</span> </p>
+         </div>
+       </div>
+       
+
+       {/* Elite Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards">
+           
+         <p style={{color:"#fff"}}>Teacher</p>
+           
+         </div>
+       </div>
        </div>
        <div className="row">
          {/* Simple Plan */}
@@ -170,112 +383,43 @@ const Pricing = () => {
          </div>
        </div>
        </div>
-       <div className="row" style={{backgroundColor:'#e63974', width:'100%',marginLeft:'0px'}}>
-         <div className="col-lg-12 text-center p-3">
-               <p className="text-white">ACADEMICS</p>
-         </div>
-       </div>
        <div className="row">
          {/* Simple Plan */}
        <div className="col-md-3">
-         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
+         <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
-           <p style={{color:'white'}}>2 Classes in Week</p>
-           <p style={{color:'white'}}>Monthly Assessment</p>
-           <p style={{color:'white'}}>Progress Report (Quarterly)</p>
+         <p style={{color:"rgb(34, 56, 87, .0)"}}>Teacher</p>
           
          </div>
        </div>
 
      {/* Essential Plan */}
      <div className="col-md-3">
-         <div className="pricing-card">
+         <div className="pricing-cards">
           
-           <p>3 Classes in Week</p>
-           <p>Monthly Assessment</p>
-           <p>Progress Report (Quarterly)</p>
+           <p style={{color:'#fff'}}>TEACHER</p>
            
          </div>
        </div>
 
        {/* Premium Plan */}
        <div className="col-md-3">
-         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
+         <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
-           <p style={{color:'white'}}>4 Classes in Week</p>
-           <p style={{color:'white'}}>Monthly Assessment</p>
-           <p style={{color:'white'}}>Progress Report (Quarterly)</p>
-          
+           
+         <p style={{color:'#ccc', marginLeft:'-85px',fontSize:'23px'}}><span style={{color:'#000',background:'#ccc', padding:'10px 1px 10px 10px',borderRadius:'10px 0px 0px 10px'}}>Sch</span><span style={{color:'#fff',background:'#000', padding:'10px 10px 10px 1px', borderRadius:'0px 10px 10px 0px'}}>eduling</span> </p>
          </div>
        </div>
        
 
        {/* Elite Plan */}
        <div className="col-md-3">
-         <div className="pricing-card">
+         <div className="pricing-cards">
            
-           <p>4 Classes in Week</p>
-           <p>Monthly Assessment</p>
-           <p>Progress Report (Quarterly)</p>
+         <p style={{color:"#fff"}}>Teacher</p>
            
          </div>
        </div>
-       </div>
-       <div className="row" style={{backgroundColor:'#e63974', width:'100%',marginLeft:'0px'}}>
-         <div className="col-lg-12 text-center p-3">
-               <p className="text-white">TOOLS & LEARNING MATERIAL</p>
-         </div>
-       </div>
-       <div className="row">
-         {/* Simple Plan */}
-       <div className="col-md-3">
-         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
-          
-           <p style={{color:'white'}}>2 Classes in Week</p>
-           <p style={{color:'white'}}>Monthly Assessment</p>
-           <p style={{color:'white'}}>Progress Report (Quarterly)</p>
-          
-         </div>
-       </div>
-
-     {/* Essential Plan */}
-     <div className="col-md-3">
-         <div className="pricing-card">
-          
-           <p>3 Classes in Week</p>
-           <p>Monthly Assessment</p>
-           <p>Progress Report (Quarterly)</p>
-           
-         </div>
-       </div>
-
-       {/* Premium Plan */}
-       <div className="col-md-3">
-         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
-          
-           <p style={{color:'white'}}>4 Classes in Week</p>
-           <p style={{color:'white'}}>Monthly Assessment</p>
-           <p style={{color:'white'}}>Progress Report (Quarterly)</p>
-          
-         </div>
-       </div>
-       
-
-       {/* Elite Plan */}
-       <div className="col-md-3">
-         <div className="pricing-card">
-           
-           <p>4 Classes in Week</p>
-           <p>Monthly Assessment</p>
-           <p>Progress Report (Quarterly)</p>
-           
-         </div>
-       </div>
-       </div>
-       <div className="row" style={{backgroundColor:'#e63974', width:'100%',marginLeft:'0px'}}>
-         <div className="col-lg-12 text-center p-3">
-               <p className="text-white">SCHEDULING</p>
-         </div>
        </div>
        <div className="row">
          {/* Simple Plan */}
@@ -324,10 +468,43 @@ const Pricing = () => {
        </div>
      
        </div>
-       <div className="row" style={{backgroundColor:'#e63974', width:'100%',marginLeft:'0px'}}>
-         <div className="col-lg-12 text-center p-3">
-               <p className="text-white">PROMOTIONS</p>
+       <div className="row">
+         {/* Simple Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
+          
+         <p style={{color:"rgb(34, 56, 87, .0)"}}>Teacher</p>
+          
          </div>
+       </div>
+
+     {/* Essential Plan */}
+     <div className="col-md-3">
+         <div className="pricing-cards">
+          
+           <p style={{color:'#fff'}}>TEACHER</p>
+           
+         </div>
+       </div>
+
+       {/* Premium Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
+          
+           
+         <p style={{color:'#ccc', marginLeft:'-85px',fontSize:'23px'}}><span style={{color:'#000',background:'#ccc', padding:'10px 1px 10px 10px',borderRadius:'10px 0px 0px 10px'}}>Pro</span><span style={{color:'#fff',background:'#000', padding:'10px 10px 10px 1px', borderRadius:'0px 10px 10px 0px'}}>motions</span> </p>
+         </div>
+       </div>
+       
+
+       {/* Elite Plan */}
+       <div className="col-md-3">
+         <div className="pricing-cards">
+           
+         <p style={{color:"#fff"}}>Teacher</p>
+           
+         </div>
+       </div>
        </div>
        <div className="row">
          {/* Simple Plan */}
