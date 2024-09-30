@@ -16,7 +16,7 @@ const Pricing = () => {
       {/*==================================================*/}
       {/* Start Service Section */}
       {/*===================================================*/}
-      <div className="pricing-section" >
+<div className="pricing-section" >
   <div className="container" >
     <div className="row" >
       <div className="col-lg-12">
@@ -51,17 +51,38 @@ const Pricing = () => {
          {/* Simple Plan */}
          
          <div className="col-md-3">
-          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)",borderRadius:'10px 10px 0px 0px'}}>
-              <h3>Simple</h3>
-              <div className="pricing-item-text mb-15">
-          <span className="currency" style={{ color: 'white' }}>$</span>
-          <span className="tk" style={{ color: 'white' }}>3</span>
-          <span className="month" style={{color:'white'}}>/ month</span>
+          <div className="pricing-card" style={{backgroundColor:"#fff",borderRadius:'10px 10px 0px 0px'}}>
+          <h3 style={{ border: "1px solid black"}}>Simple</h3>           <br/>
+          <div className="pricing-item-text mb-15">
+          <span className="currencys" style={{ color: 'black' }}>$</span>
+          <span className="tks" style={{ color: 'black' }}>30</span>
+          <span className="months" style={{color:'white'}}>/ month</span>
       </div>
 
-
+<br/>
         <div className="pricing-btn">
             <a href="#" className="btn-common pc-btn">Let's Begin</a>
+        </div>
+        <div>
+          <br/>
+        <ul className="features">
+            <li>Proficient Arabic (Native) Teacher</li>
+            <li>Institutionally Certified</li>
+            <li>Top 5% Rated Teacher</li>
+          </ul>
+        <br/>
+          <div className="sectionTitle" style={{textAlign:'center'}}>Teachers</div>
+          <ul className="features">
+            <li>Proficient Arabic (Native) Teacher</li>
+            <li>Institutionally Certified</li>
+            <li>Top 5% Rated Teacher</li>
+          </ul>
+ <br/>
+ <div className="sectionTitle" style={{textAlign:'center',backgroundColor: '#d9bfbf', fontWeight:'600', color:'black' }}>Academics</div>
+ <ul className="features">
+            <li>Dedicated Academic Coach</li>
+            <li>Coaching and Planning</li>
+          </ul>
         </div>
     </div>
 </div>
@@ -69,16 +90,37 @@ const Pricing = () => {
      {/* Essential Plan */}
      <div className="col-md-3">
          <div className="pricing-card" style={{borderRadius:'10px 10px 0px 0px'}}>
-           <h3>Essential</h3>
+         <h3 style={{ border: "1px solid black"}}>Essential</h3>           <br/>
            <div className="pricing-item-text mb-15">
-             <span className="currency">$</span>
-             <span className="tk">65</span>
-             <span className="month">/ month</span>
+           <span className="currencys" style={{ color: 'black' }}>$</span>
+          <span className="tks" style={{ color: 'black' }}>65</span>
+          <span className="months" style={{color:'white'}}>/ month</span>
            </div>
+           <br/>
            <div className="pricing-btn">
              <a href="#" className="btn-common pc-btn">Let's Begin</a>
            </div>
-           
+           <div>
+            <br/>
+        <ul className="features">
+            <li>Proficient Arabic (Native) Teacher</li>
+            <li>Institutionally Certified</li>
+            <li>Top 5% Rated Teacher</li>
+          </ul>
+ <br/>
+          <div className="sectionTitle" style={{textAlign:'center'}}>Teachers</div>
+          <ul className="features">
+            <li>Proficient Arabic (Native) Teacher</li>
+            <li>Institutionally Certified</li>
+            <li>Top 5% Rated Teacher</li>
+          </ul>
+<br/>
+<div className="sectionTitle" style={{textAlign:'center',backgroundColor: '#d9bfbf', fontWeight:'600', color:'black' }}>Academics</div>
+<ul className="features">
+            <li>Dedicated Academic Coach</li>
+            <li>Coaching and Planning</li>
+          </ul>
+        </div> 
           
          </div>
        </div>
@@ -86,16 +128,38 @@ const Pricing = () => {
        {/* Premium Plan */}
        <div className="col-md-3">
          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)",borderRadius:'10px 10px 0px 0px'}}>
-           <h3>Premium</h3>
+         <h3 className="" style={{ backgroundColor: '#d9bfbf', border: "1px solid black"}}>Premium</h3>
+           <br/>
            <div className="pricing-item-text mb-15" >
              <span className="currency" style={{color:'white'}}>$</span>
              <span className="tk" style={{color:'white'}}>75</span>
              <span className="month" style={{color:'white'}}>/ month</span>
            </div>
+           <br/>
            <div className="pricing-btn">
              <a href="#" className="btn-common pc-btn">Let's Begin</a>
            </div>
-           
+           <div>
+            <br/>
+        <ul className="featuress">
+            <li>Proficient Arabic (Native) Teacher</li>
+            <li>Institutionally Certified</li>
+            <li>Top 5% Rated Teacher</li>
+          </ul>
+<br/>
+          <div className="sectionTitle" style={{textAlign:'center'}}>Teachers</div>
+          <ul className="featuress">
+            <li>Proficient Arabic (Native) Teacher</li>
+            <li>Institutionally Certified</li>
+            <li>Top 5% Rated Teacher</li>
+          </ul>
+<br/>
+<div className="sectionTitle" style={{textAlign:'center',backgroundColor: '#d9bfbf', fontWeight:'600', color:'black' }}>Academics</div>
+<ul className="featuress">
+            <li>Dedicated Academic Coach</li>
+            <li>Coaching and Planning</li>
+          </ul>
+        </div>
         
          </div>
        </div>
@@ -103,17 +167,39 @@ const Pricing = () => {
 
        {/* Elite Plan */}
        <div className="col-md-3">
-         <div className="pricing-card" style={{borderRadius:'10px 10px 0px 0px'}}>
-           <h3>Elite</h3>
+         <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)",borderRadius:'10px 10px 0px 0px'}}>
+         <h3 className="" style={{ backgroundColor: '#d9bfbf', border: "1px solid black"}}>Elite</h3>
+           <br/>
            <div className="pricing-item-text mb-15">
              <span className="currency">$</span>
              <span className="tk">90</span>
              <span className="month">/ month</span>
            </div>
+           <br/>
            <div className="pricing-btn">
              <a href="#" className="btn-common pc-btn">Let's Begin</a>
            </div>
-          
+           <div>
+            <br/>
+        <ul className="featuress">
+            <li>Proficient Arabic (Native) Teacher</li>
+            <li>Institutionally Certified</li>
+            <li>Top 5% Rated Teacher</li>
+          </ul>
+<br/>
+          <div className="sectionTitle" style={{textAlign:'center'}}>Teachers</div>
+          <ul className="featuress">
+            <li>Proficient Arabic (Native) Teacher</li>
+            <li>Institutionally Certified</li>
+            <li>Top 5% Rated Teacher</li>
+          </ul>
+<br/> 
+<div className="sectionTitle" style={{textAlign:'center',backgroundColor: '#d9bfbf', fontWeight:'600', color:'black' }}>Academics</div>
+<ul className="featuress">
+            <li>Dedicated Academic Coach</li>
+            <li>Coaching and Planning</li>
+          </ul>
+        </div>
            
          </div>
        </div>
@@ -121,8 +207,7 @@ const Pricing = () => {
 
 
 
-       <div className="row">
-         {/* Simple Plan */}
+       {/* <div className="row">
        <div className="col-md-3">
          <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
@@ -131,7 +216,6 @@ const Pricing = () => {
          </div>
        </div>
 
-     {/* Essential Plan */}
      <div className="col-md-3">
          <div className="pricing-cards">
           
@@ -140,7 +224,6 @@ const Pricing = () => {
          </div>
        </div>
 
-       {/* Premium Plan */}
        <div className="col-md-3">
          <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
@@ -150,7 +233,6 @@ const Pricing = () => {
        </div>
        
 
-       {/* Elite Plan */}
        <div className="col-md-3">
          <div className="pricing-cards">
            
@@ -158,7 +240,7 @@ const Pricing = () => {
            
          </div>
        </div>
-       </div>
+       </div> */}
        
        {/* <div className="row" style={{backgroundColor:'#22385775', width:'100%',marginLeft:'0px'}}>
          <div className="col-lg-12 text-center p-3">
@@ -166,8 +248,7 @@ const Pricing = () => {
          </div>
        </div> */}
        
-       <div className="row">
-         {/* Simple Plan */}
+       {/* <div className="row">
        <div className="col-md-3">
          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
           
@@ -178,7 +259,6 @@ const Pricing = () => {
          </div>
        </div>
 
-     {/* Essential Plan */}
      <div className="col-md-3">
          <div className="pricing-card">
           
@@ -189,7 +269,6 @@ const Pricing = () => {
          </div>
        </div>
 
-       {/* Premium Plan */}
        <div className="col-md-3">
          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
           
@@ -201,7 +280,6 @@ const Pricing = () => {
        </div>
        
 
-       {/* Elite Plan */}
        <div className="col-md-3">
          <div className="pricing-card">
            
@@ -211,9 +289,8 @@ const Pricing = () => {
            
          </div>
        </div>
-       </div>
-       <div className="row">
-         {/* Simple Plan */}
+       </div> */}
+       {/* <div className="row">
        <div className="col-md-3">
          <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
@@ -222,7 +299,6 @@ const Pricing = () => {
          </div>
        </div>
 
-     {/* Essential Plan */}
      <div className="col-md-3">
          <div className="pricing-cards">
           
@@ -231,7 +307,6 @@ const Pricing = () => {
          </div>
        </div>
 
-       {/* Premium Plan */}
        <div className="col-md-3">
          <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
@@ -241,7 +316,6 @@ const Pricing = () => {
        </div>
        
 
-       {/* Elite Plan */}
        <div className="col-md-3">
          <div className="pricing-cards">
            
@@ -249,12 +323,11 @@ const Pricing = () => {
            
          </div>
        </div>
-       </div>
+       </div> */}
 
 
 
-       <div className="row">
-         {/* Simple Plan */}
+       {/* <div className="row">
        <div className="col-md-3">
          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
           
@@ -265,7 +338,6 @@ const Pricing = () => {
          </div>
        </div>
 
-     {/* Essential Plan */}
      <div className="col-md-3">
          <div className="pricing-card">
           
@@ -276,7 +348,6 @@ const Pricing = () => {
          </div>
        </div>
 
-       {/* Premium Plan */}
        <div className="col-md-3">
          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
           
@@ -288,7 +359,6 @@ const Pricing = () => {
        </div>
        
 
-       {/* Elite Plan */}
        <div className="col-md-3">
          <div className="pricing-card">
            
@@ -298,9 +368,8 @@ const Pricing = () => {
            
          </div>
        </div>
-       </div>
-       <div className="row">
-         {/* Simple Plan */}
+       </div> */}
+       {/* <div className="row">
        <div className="col-md-3">
          <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
@@ -309,7 +378,6 @@ const Pricing = () => {
          </div>
        </div>
 
-     {/* Essential Plan */}
      <div className="col-md-3">
          <div className="pricing-cards">
           
@@ -318,7 +386,6 @@ const Pricing = () => {
          </div>
        </div>
 
-       {/* Premium Plan */}
        <div className="col-md-3">
          <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
@@ -328,7 +395,6 @@ const Pricing = () => {
        </div>
        
 
-       {/* Elite Plan */}
        <div className="col-md-3">
          <div className="pricing-cards">
            
@@ -336,9 +402,8 @@ const Pricing = () => {
            
          </div>
        </div>
-       </div>
-       <div className="row">
-         {/* Simple Plan */}
+       </div> */}
+       {/* <div className="row">
        <div className="col-md-3">
          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
           
@@ -349,7 +414,6 @@ const Pricing = () => {
          </div>
        </div>
 
-     {/* Essential Plan */}
      <div className="col-md-3">
          <div className="pricing-card">
           
@@ -360,7 +424,6 @@ const Pricing = () => {
          </div>
        </div>
 
-       {/* Premium Plan */}
        <div className="col-md-3">
          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
           
@@ -372,7 +435,6 @@ const Pricing = () => {
        </div>
        
 
-       {/* Elite Plan */}
        <div className="col-md-3">
          <div className="pricing-card">
            
@@ -382,9 +444,8 @@ const Pricing = () => {
            
          </div>
        </div>
-       </div>
-       <div className="row">
-         {/* Simple Plan */}
+       </div> */}
+       {/* <div className="row">
        <div className="col-md-3">
          <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
@@ -393,7 +454,6 @@ const Pricing = () => {
          </div>
        </div>
 
-     {/* Essential Plan */}
      <div className="col-md-3">
          <div className="pricing-cards">
           
@@ -402,7 +462,6 @@ const Pricing = () => {
          </div>
        </div>
 
-       {/* Premium Plan */}
        <div className="col-md-3">
          <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
@@ -412,7 +471,6 @@ const Pricing = () => {
        </div>
        
 
-       {/* Elite Plan */}
        <div className="col-md-3">
          <div className="pricing-cards">
            
@@ -420,9 +478,8 @@ const Pricing = () => {
            
          </div>
        </div>
-       </div>
-       <div className="row">
-         {/* Simple Plan */}
+       </div> */}
+       {/* <div className="row">
        <div className="col-md-3">
          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}}>
           
@@ -433,7 +490,6 @@ const Pricing = () => {
          </div>
        </div>
 
-     {/* Essential Plan */}
      <div className="col-md-3">
          <div className="pricing-card">
           
@@ -444,7 +500,6 @@ const Pricing = () => {
          </div>
        </div>
 
-       {/* Premium Plan */}
        <div className="col-md-3">
          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)"}} >
           
@@ -456,7 +511,6 @@ const Pricing = () => {
        </div>
        
 
-       {/* Elite Plan */}
        <div className="col-md-3">
          <div className="pricing-card">
            
@@ -467,9 +521,8 @@ const Pricing = () => {
          </div>
        </div>
      
-       </div>
-       <div className="row">
-         {/* Simple Plan */}
+       </div> */}
+       {/* <div className="row">
        <div className="col-md-3">
          <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
@@ -478,7 +531,6 @@ const Pricing = () => {
          </div>
        </div>
 
-     {/* Essential Plan */}
      <div className="col-md-3">
          <div className="pricing-cards">
           
@@ -487,7 +539,6 @@ const Pricing = () => {
          </div>
        </div>
 
-       {/* Premium Plan */}
        <div className="col-md-3">
          <div className="pricing-cards" style={{backgroundColor:'#223857'}}>
           
@@ -497,7 +548,6 @@ const Pricing = () => {
        </div>
        
 
-       {/* Elite Plan */}
        <div className="col-md-3">
          <div className="pricing-cards">
            
@@ -505,9 +555,8 @@ const Pricing = () => {
            
          </div>
        </div>
-       </div>
-       <div className="row">
-         {/* Simple Plan */}
+       </div> */}
+       {/* <div className="row">
        <div className="col-md-3">
          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)",borderRadius:'0px 0px 10px 10px'}}>
           
@@ -518,7 +567,6 @@ const Pricing = () => {
          </div>
        </div>
 
-     {/* Essential Plan */}
      <div className="col-md-3">
          <div className="pricing-card" style={{borderRadius:'0px 0px 10px 10px'}}>
           
@@ -529,7 +577,6 @@ const Pricing = () => {
          </div>
        </div>
 
-       {/* Premium Plan */}
        <div className="col-md-3">
          <div className="pricing-card" style={{backgroundColor:"rgb(34, 56, 87)",borderRadius:'0px 0px 10px 10px'}}>
           
@@ -541,7 +588,6 @@ const Pricing = () => {
        </div>
        
 
-       {/* Elite Plan */}
        <div className="col-md-3">
          <div className="pricing-card" style={{borderRadius:'0px 0px 10px 10px'}}>
            
@@ -551,7 +597,7 @@ const Pricing = () => {
            
          </div>
        </div>
-       </div>
+       </div> */}
      </div>
       
         
@@ -598,8 +644,8 @@ const Pricing = () => {
 
           {/* Premium Plan */}
           <div className="col-md-3">
-            <div className="pricing-card">
-              <h3>Premium</h3>
+            <div className="pricing-cards">
+              <h3 style={{backgroundColor: 'red'}}>Premium</h3>
               <div className="pricing-item-text mb-15">
                 <span className="currency">$</span>
                 <span className="tk">75</span>
@@ -616,7 +662,7 @@ const Pricing = () => {
 
           {/* Elite Plan */}
           <div className="col-md-3">
-            <div className="pricing-card">
+            <div className="pricing-cards">
               <h3>Elite</h3>
               <div className="pricing-item-text mb-15">
                 <span className="currency">$</span>
@@ -639,15 +685,7 @@ const Pricing = () => {
           </div>
           <div className="row">
             {/* Simple Plan */}
-          <div className="col-md-3">
-            <div className="pricing-card">
-             
-              <p>2 Classes in Week</p>
-              <p>Monthly Assessment</p>
-              <p>Progress Report (Quarterly)</p>
-             
-            </div>
-          </div>
+        
 
         {/* Essential Plan */}
         <div className="col-md-3">
@@ -682,6 +720,7 @@ const Pricing = () => {
               
             </div>
           </div>
+          
           </div>
           <div className="row">
             <div className="col-lg-12 text-center p-3">
@@ -841,6 +880,103 @@ const Pricing = () => {
       )}
     </div>
   </div>
+  {/* <style jsx>{`
+        .pricingWrapper {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 20px;
+          padding: 20px;
+        }
+
+        .pricingCard {
+          background-color: #fff;
+          border: 1px solid #e0e0e0;
+          border-radius: 8px;
+          padding: 20px;
+          text-align: center;
+          position: relative;
+        }
+
+        .highlightedCard {
+          background-color: #fffae5;
+          border-color: #ff9800;
+          box-shadow: 0px 4px 10px rgba(255, 152, 0, 0.3);
+        }
+
+        .bestValue {
+          position: absolute;
+          top: -10px;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: #ff9800;
+          color: white;
+          padding: 5px 10px;
+          font-size: 0.9rem;
+          border-radius: 5px;
+        }
+
+        .cardTitle {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+
+        .price {
+          font-size: 1.25rem;
+          color: #333;
+        }
+
+        .btn {
+          background-color: #007bff;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        .btnPrimary {
+          background-color: #ff9800;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        .features {
+          list-style: none;
+          padding: 0;
+          margin: 20px 0;
+        }
+
+        .features li {
+          margin-bottom: 10px;
+        }
+
+        .sectionTitle {
+          font-weight: bold;
+          text-align: center;
+          margin: 20px 0 10px;
+          color: #d63031;
+          font-size: 1.2rem;
+        }
+.btn:hover, .btnPrimary:hover {
+  background-color: #0056b3; 
+  background-color: #e68a00; 
+}
+
+        @media (max-width: 1024px) {
+          .pricingWrapper {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+
+        @media (max-width: 768px) {
+          .pricingWrapper {
+            grid-template-columns: 1fr;
+          }
+        }
+      `}</style> */}
 </div>
 
     </Layout>

@@ -1830,13 +1830,13 @@ const MobileMenu = ()=>{
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
+                                            href: "/",
                                             children: "Home "
                                         })
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                         children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "#",
+                                            href: "/about",
                                             children: "About Us "
                                         })
                                     }),
@@ -1853,21 +1853,21 @@ const MobileMenu = ()=>{
                                                     /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                         children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                                             legacyBehavior: true,
-                                                            href: "service",
+                                                            href: "/tajweed",
                                                             children: "Tajweed MasterClass"
                                                         })
                                                     }),
                                                     /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                         children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                                             legacyBehavior: true,
-                                                            href: "service-details",
+                                                            href: "/quran",
                                                             children: "Qur'an Memorization"
                                                         })
                                                     }),
                                                     /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                                         children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                                             legacyBehavior: true,
-                                                            href: "service-details",
+                                                            href: "/arabic",
                                                             children: "Learn Arabic Language"
                                                         })
                                                     })
@@ -1887,7 +1887,7 @@ const MobileMenu = ()=>{
                                     /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                             legacyBehavior: true,
-                                            href: "portfolio",
+                                            href: "/pricing",
                                             children: "Pricing"
                                         })
                                     }),
@@ -1895,7 +1895,7 @@ const MobileMenu = ()=>{
                                         className: "mean-last",
                                         children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                             legacyBehavior: true,
-                                            href: "contact",
+                                            href: "/contact",
                                             children: "Contact"
                                         })
                                     })

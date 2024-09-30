@@ -39,26 +39,26 @@ const MobileMenu = () => {
               style={{ display: toggle ? "block" : "none" }}
             >
               <li>
-                <a href="#">Home </a>
+                <a href="/">Home </a>
               </li>
               <li>
-                <a href="#">About Us </a>
+                <a href="/about">About Us </a>
               </li>
               <li>
                 <a href="#">Courses </a>
                 <ul className="sub-menu" style={activeLi("Services")}>
                   <li>
-                    <Link legacyBehavior href="service">
+                    <Link legacyBehavior href="/tajweed">
                       Tajweed MasterClass
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="/quran">
                       Qur'an Memorization
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="service-details">
+                    <Link legacyBehavior href="/arabic">
                       Learn Arabic Language
                     </Link>
                   </li>
@@ -73,12 +73,12 @@ const MobileMenu = () => {
                 </a>
               </li>
               <li>
-                <Link legacyBehavior href="portfolio">
+                <Link legacyBehavior href="/pricing">
                   Pricing
                 </Link>
               </li>
               <li className="mean-last">
-                <Link legacyBehavior href="contact">
+                <Link legacyBehavior href="/contact">
                   Contact
                 </Link>
               </li>
@@ -86,7 +86,7 @@ const MobileMenu = () => {
           </nav>
         </div>
         <div className="mean-push" />
-      </div>
+      </div>  
     </div>
   );
 };
