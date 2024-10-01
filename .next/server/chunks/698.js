@@ -1249,7 +1249,7 @@ const Footer = ({ footer  })=>{
 
 const Menus_DaskTopMenusMenus = ()=>{
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-        className: "nav_scroll",
+        className: "nav_scroll text-center",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx("li", {
                 children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
@@ -1292,6 +1292,9 @@ const Menus_DaskTopMenusMenus = ()=>{
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("ul", {
                         className: "sub-menus courses-menu-horizontal ",
+                        style: {
+                            backgroundColor: "#223857"
+                        },
                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                             className: "row",
                             children: [
@@ -1306,7 +1309,8 @@ const Menus_DaskTopMenusMenus = ()=>{
                                                 /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                                     src: "assets/img/2.png",
                                                     alt: "Tajweed",
-                                                    width: 200,
+                                                    width: 250,
+                                                    height: 200,
                                                     className: "p-20 align-middle justify-center ml-40"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -1327,7 +1331,8 @@ const Menus_DaskTopMenusMenus = ()=>{
                                                 /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                                     src: "assets/img/3.png",
                                                     alt: "",
-                                                    width: 200,
+                                                    width: 250,
+                                                    height: 200,
                                                     className: "p-20 align-middle justify-center ml-40"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -1348,7 +1353,8 @@ const Menus_DaskTopMenusMenus = ()=>{
                                                 /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                                     src: "assets/img/1.png",
                                                     alt: "",
-                                                    width: 200,
+                                                    width: 250,
+                                                    height: 200,
                                                     className: "p-20 align-middle justify-center ml-40"
                                                 }),
                                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -1897,6 +1903,14 @@ const MobileMenu = ()=>{
                                             legacyBehavior: true,
                                             href: "/contact",
                                             children: "Contact"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                        className: "header-button pl-0",
+                                        children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                            legacyBehavior: true,
+                                            href: "/contact",
+                                            children: "Request a Quote"
                                         })
                                     })
                                 ]

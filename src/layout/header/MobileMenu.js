@@ -82,6 +82,11 @@ const MobileMenu = () => {
                   Contact
                 </Link>
               </li>
+              <li className="header-button pl-0">
+                  <Link legacyBehavior href="/contact">
+                    Request a Quote
+                  </Link>
+                </li>
             </ul>
           </nav>
         </div>
