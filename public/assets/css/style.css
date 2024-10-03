@@ -6290,7 +6290,7 @@ span.fill {
   bottom: 0;
   width: 80px;
   height: 80px;
-  background: url(../img/course2.png);
+  background: url(../img/course11.png);
   transition: 0.5s;
   opacity: 0;
   z-index: -1;
@@ -6303,7 +6303,7 @@ width: 80px;
 height: 80px;
 background-size: 100% auto; /* Increase width to 120% while keeping height auto */
 background-repeat: no-repeat;
-background-image: url(../img/course1.png);
+background-image: url(../img/coursebg.png);
 transition: 0.5s;
 background-position: right center; /* Aligns the image to the right */
 
@@ -6481,7 +6481,7 @@ background-position: right center; /* Aligns the image to the right */
   bottom: 0;
   width: 80px;
   height: 80px;
-  background: url(../img/course1a.png);
+  background: url(../img/course22.png);
   transition: 0.5s;
   opacity: 0;
   z-index: -1;
@@ -6494,7 +6494,7 @@ width: 80px;
 height: 80px;
 background-size: 100% auto; /* Increase width to 120% while keeping height auto */
 background-repeat: no-repeat;
-background-image: url(../img/course1.png);
+background-image: url(../img/coursebg.png);
 transition: 0.5s;
 background-position: right center; /* Aligns the image to the right */
 
@@ -6649,6 +6649,8 @@ background-position: right center; /* Aligns the image to the right */
   opacity: 0;
 }
 
+
+/* Feature style 0 */
 .single-feature-box1 {
   padding: 45px 19px 49px 40px;
   border: 0;
@@ -6670,20 +6672,20 @@ background-position: right center; /* Aligns the image to the right */
   bottom: 0;
   width: 80px;
   height: 80px;
-  background: url(../img/course1b.png);
+  background: url(../img/course33.png);
   transition: 0.5s;
   opacity: 0;
   z-index: -1;
 }
 
 /* General style for the feature back icon */
-.consen-feature-back1 .feature-back-icon0 a {
+.consen-feature-back1 .feature-back-icon1 a {
   display: block;
 width: 80px;
 height: 80px;
 background-size: 100% auto; /* Increase width to 120% while keeping height auto */
 background-repeat: no-repeat;
-background-image: url(../img/course1.png);
+background-image: url(../img/coursebg.png);
 transition: 0.5s;
 background-position: right center; /* Aligns the image to the right */
 
@@ -6830,14 +6832,13 @@ background-position: right center; /* Aligns the image to the right */
   opacity: 1;
 }
 
-.single-feature-box1:hover .feature-icon11 img {
+.single-feature-box1:hover .feature-icon10 img {
   opacity: 0;
 }
 
-.single-feature-box1:hover .feature-icon11:after {
+.single-feature-box1:hover .feature-icon10:after {
   opacity: 0;
 }
-
 /*feature shape*/
 .feature-shape {
   position: absolute;
@@ -8756,12 +8757,18 @@ p.text-center {
     grid-template-columns: 1fr;
   }
 }
-.sectionTitle{
+.sectionTitle {
   text-align: center;
   background-color: rgb(217, 191, 191);
   font-weight: 600;
   color: black;
+  width: 100vw; /* Full viewport width */
+  padding-right: 20px;
+  padding-left: 20px; /* Optional to maintain padding balance */
+  margin: 0;
+  box-sizing: border-box; /* Ensures padding is included in the width */
 }
+
 .sectionTitles{
   text-align: center;
   background-color: rgb(217, 191, 191);

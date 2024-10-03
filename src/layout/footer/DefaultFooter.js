@@ -16,7 +16,7 @@ const DefaultFooter = () => {
                 <li><Link legacyBehavior href="/">Home</Link></li>
                 <li><Link legacyBehavior href="/about">About Us</Link></li>
                 <li><Link legacyBehavior href="/contact">Contact Us</Link></li>
-                <li><Link legacyBehavior href="/service">Service</Link></li>
+                <li><Link legacyBehavior href="/pricing">Pricing</Link></li>
               </ul>
             </div>
           </div>
@@ -29,10 +29,9 @@ const DefaultFooter = () => {
           <h4 className="widget-title">COURSES</h4>
           <div className="menu-quick-link-content">
             <ul className="footer-menu">
-              <li><a href="#">Tajweed</a></li>
-              <li><a href="#">Quran</a></li>
-              <li><a href="#">Arabic</a></li>
-              <li><a href="#">Arabic UAE</a></li>
+              <li><a href="/tajweed">Tajweed</a></li>
+              <li><a href="/quran">Quran</a></li>
+              <li><a href="/arabic">Arabic</a></li>
             </ul>
           </div>
         </div>

@@ -3,6 +3,7 @@ import Breadcumb from "@/src/components/Breadcumb";
 import Faqs1 from "@/src/components/Faqs1";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
+import Faqs2 from '@/src/components/Faqs2';
 
 const Quran = () => {
     return (
@@ -191,12 +192,23 @@ And Prophet Muhammed (sallallahu alaihi wasallam) said: “The best among you is
                   </div>
                 </div>
               </div>
+             </div>
 
-            
-    
-                
-              </div>
+             <div className="faq-area" data-aos="fade-up">
+                <div className="container">
+                  <div className="col-lg-12 col-md-12 pl-0 max-w-full">
+                      <div className="tab_container">
+                        <div className="consen-section-title white pb-40 mb-1">
+                          <h5> FAQ </h5>
+                          <h2> Frequently Asked <span> Question </span></h2>
+                        </div>
+                        <Faqs1 />
+                      </div>
+                    </div>
                   </div>
+                </div>
+                
+           </div>
           
         
         </Layout>

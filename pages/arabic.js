@@ -3,6 +3,7 @@ import Breadcumb from "@/src/components/Breadcumb";
 import Faqs1 from "@/src/components/Faqs1";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
+import Faqs3 from '@/src/components/Faqs3';
 
 const Arabic = () => {
     return (
@@ -305,7 +306,7 @@ const Arabic = () => {
                   </div>
                 </div>
               </div>
-                
+                <Faqs3 />
               </div>
                   </div>
           

@@ -126,7 +126,7 @@ const Index = () => {
                     <h2>  Tajweed Course</h2>
                   </div>
                   <div className="feature-back-icon">
-                    <a href="/service-details">+</a>
+                    <a href="/tajweed"></a>
                   </div>
                 </div>
               </div>
@@ -156,7 +156,7 @@ const Index = () => {
                     <h2> Quran Course </h2>
                   </div>
                   <div className="feature-back-icon0">
-                    <a href="#">+</a>
+                    <a href="/quran"></a>
                   </div>
                 </div>
               </div>
@@ -186,7 +186,7 @@ const Index = () => {
                     <h2> Arabic Course </h2>
                   </div>
                   <div className="feature-back-icon1">
-                    <a href="#">+</a>
+                    <a href="/arabic"></a>
                   </div>
                 </div>
               </div>
@@ -266,7 +266,7 @@ const Index = () => {
             </div>
             {/* about thumb */}
             <div className="about-shape-thumb2 bounce-animate4">
-              <img src="assets/images/resource/lamp.png"  height={150}alt />
+              {/* <img src="assets/images/resource/lamp.png"  height={150}alt /> */}
             </div>
           </div>
          
@@ -314,7 +314,7 @@ const Index = () => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="dreamit-about-thumb1">
-                <img src="assets/img/about2 1.png" alt />
+                <img src="assets/img/about21.png" alt />
               </div>
               <div className="about-shape-box">
                 <div className="about-shape-thumb bounce-animate">

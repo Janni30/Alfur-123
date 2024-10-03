@@ -745,7 +745,7 @@ const Pricing = () => {
                 <li>Top 5% Rated Teacher</li>
               </ul>
     <br/>
-              <div className="sectionTitles">Teachers</div>
+<div className="sectionTitles">Teachers</div>
               <ul className="featuress">
                 <li>Proficient Arabic (Native) Teacher</li>
                 <li>Institutionally Certified</li>

@@ -30,7 +30,7 @@ export const DaskTopMenusMenus = () => {
         <ul className="sub-menus courses-menu-horizontal " style={{backgroundColor:'#223857'}}>
           <div className="row" >
             <li className="col">
-              <Link legacyBehavior href="/arabic">
+              <Link legacyBehavior href="/tajweed">
                 <a className="">
                   <img src="assets/img/2.png" alt="Tajweed" width={250} height={200} className="p-20 align-middle justify-center ml-40"/>
                   <p className="mt-20 text-center">Tajweed Masterclass</p>
@@ -46,7 +46,7 @@ export const DaskTopMenusMenus = () => {
               </Link>
             </li>
             <li className="col">
-              <Link legacyBehavior href="/tajweed">
+              <Link legacyBehavior href="/arabic">
                 <a>
                   <img src="assets/img/1.png" alt="" width={250} height={200} className="p-20 align-middle justify-center ml-40"/>
                   <p className="mt-20 text-center">Learn Arabic Language </p>
