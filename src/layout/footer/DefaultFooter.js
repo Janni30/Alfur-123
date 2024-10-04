@@ -128,12 +128,12 @@ const DefaultFooter = () => {
       </div>
       <div className="col-md-4 d-flex justify-content-end">
         <div className="footer-bottom-content">
-          <div className="footer-bottom-content-copy">
-            <p style={{color:'#e63946'}}>
-                Designed By BlackstoneInfomatics
-             
-            </p>
-          </div>
+        <div className="footer-bottom-content-copy">
+          <a href="https://www.blackstoneinfomatics.com/" target="_blank" rel="noopener noreferrer"><span style={{fontSize:"18px"}}>Masterfully crafted by</span> &nbsp;
+          <img src="assets/img/logo.png" alt="Blackstone Infomatics" width="130" height="25" />
+          </a>
+        </div>
+
         </div>
       </div>
     </div>

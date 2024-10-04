@@ -3344,6 +3344,7 @@ p.choose-text1 {
   padding: 95px 0 95px;
   position: relative;
   z-index: 1;
+      border-radius: 100px 0px 100px 0px;
 }
 
 /*testimonial*/
@@ -3357,6 +3358,8 @@ p.choose-text1 {
   border-radius: 3px;
   background: #fff;
   margin-bottom: 30px;
+  border-radius: 100px 0px 100px 0px;
+
 }
 
 .testimonial-single-box:before {
@@ -3764,6 +3767,7 @@ p.choose-text1 {
   padding: 95px 0 170px;
   position: relative;
   z-index: 1;
+  border-radius: 100px 0px 100px 0px;
 }
 
 .process-extra-area.style-two {
@@ -7026,7 +7030,7 @@ ul.tabs-inner-list li i {
   top: -25px;
   left: 14px;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 20px;
   font-weight: bold; 
   color: #E63946;
   background-color: #fff;
@@ -8759,19 +8763,24 @@ p.text-center {
 }
 .sectionTitle {
   text-align: center;
-  background-color: rgb(217, 191, 191);
+  background-color: rgb(233 227 227);
   font-weight: 600;
   color: black;
-  width: 100vw; /* Full viewport width */
   padding-right: 20px;
   padding-left: 20px; /* Optional to maintain padding balance */
-  margin: 0;
+  margin: 0 -20px; /* Negative margin to extend background */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+.sectionTitles{
+  text-align: center;
+  background-color: rgb(94 104 130);
+  font-weight: 600;
+  color: black;
+  padding-right: 20px;
+  padding-left: 20px; /* Optional to maintain padding balance */
+  margin: 0 -20px; /* Negative margin to extend background */
   box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
-.sectionTitles{
-  text-align: center;
-  background-color: rgb(217, 191, 191);
-  font-weight: 600;
-  color: black;
-}
+
+

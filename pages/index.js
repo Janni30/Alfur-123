@@ -1,5 +1,4 @@
 import Counter from "@/src/components/Counter";
-import ProssessBar from "@/src/components/ProssessBar";
 import Layout from "@/src/layout/Layout";
 import { brandListProps, caseStudyProps } from "@/src/sliderProps";
 import Link from "next/link";
@@ -10,7 +9,8 @@ import {
   heroSlider,
   testimonial_list_slider,
 } from "@/src/sliderProps";
-import Faqs1 from "@/src/components/Faqs1";
+import { Card } from "react-bootstrap";
+import TimedContainers from "@/src/components/TimedContainers";
 const Index = () => {
   return (
     <Layout footer={1} >
@@ -29,7 +29,7 @@ const Index = () => {
                    <p>Mastering Arabic and understanding the Quran demand structured study and consistent effort to deepen your connection.</p>
                   </div>
                   <div className="banner-button">
-                    <Link legacyBehavior href="/service">
+                    <Link legacyBehavior href="/contact">
                       <a> Discover More </a>
                     </Link>
                   </div>
@@ -57,7 +57,7 @@ const Index = () => {
                    <p>Mastering Arabic and understanding the Quran demand structured study and consistent effort to deepen your connection </p>
                   </div>
                   <div className="banner-button">
-                    <Link legacyBehavior href="/service">
+                    <Link legacyBehavior href="/contact">
                       <a> Discover More </a>
                     </Link>
                   </div>
@@ -256,7 +256,7 @@ const Index = () => {
                 </ul>
               </div>
               <div className="about-button">
-                <Link legacyBehavior href="#">
+                <Link legacyBehavior href="/contact">
                   <a>
                     {" "}
                     Learn More <i className="bi bi-plus" />{" "}
@@ -304,7 +304,7 @@ const Index = () => {
                 <span>SEO &amp; Founder</span>
               </div>
               <div className="about-button">
-                <Link legacyBehavior href="#">
+                <Link legacyBehavior href="/about">
                   <a>
                     {" "}
                     Clients Review <i className="bi bi-plus" />{" "}
@@ -557,7 +557,7 @@ const Index = () => {
               <p><span>Flexible Learning Options,</span> including online classes and recorded sessions to suit different schedules.</p>
               </div>
               <div className="about-button p-4">
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href="/contact">
                     <a>
                       {" "}
                       More About <i className="bi bi-plus" />{" "}
@@ -733,11 +733,9 @@ const Index = () => {
 
 <div className="social-media-marketing-services">
   <div className="container">
-    <h2 className="text-center">Our Process</h2>
+    <h2 className="text-center" style={{color:'#E63946'}}>Our Process</h2>
     <p className="text-center">A streamlined approach to social media marketing success</p>
-    
-   
-    <div className="services-item-wrap">
+    {/* <div className="services-item-wrap">
       <div className="row">
       <div className="col-md-4 padding">
         <div className="service-card" data-aos="fade-right">
@@ -791,12 +789,10 @@ const Index = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
+<TimedContainers />
+ </div>
 </div>
-</div>
-
-
-
       {/*==================================================*/}
       {/* End consen process Area */}
       {/*==================================================*/}
@@ -1065,6 +1061,7 @@ const Index = () => {
        {/*==================================================*/}
       {/* Start faq Area */}
       {/*==================================================*/}
+      <br/><br/><br/><br/><br/>
       <div className="faq-area">
         <div className="container">
           <div className="row">
@@ -1147,6 +1144,8 @@ const Index = () => {
           </div>
         </div>
       </div>
+      <br/><br/><br/><br/><br/>
+
       {/*==================================================*/}
       {/* End consen faq Area */}
       {/*==================================================*/}

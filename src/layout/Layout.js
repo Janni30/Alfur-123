@@ -6,6 +6,7 @@ import Footer from "./footer/Footer";
 import Header from "./header/Header";
 import MobileMenu from "./header/MobileMenu";
 import ScrollTop from "./ScrollTop";
+import SmoothScrolling from "../components/SmoothScrolling";
 const Layout = ({ children, header, footer }) => {
   useEffect(() => {
     animation();
@@ -17,8 +18,7 @@ const Layout = ({ children, header, footer }) => {
       <ImageView />
       <VideoPopup />
       <Header header={header} />
-      <MobileMenu />
-      {children}
+      <MobileMenu />{children}
       <Footer footer={footer} />
       <ScrollTop />
     </Fragment>

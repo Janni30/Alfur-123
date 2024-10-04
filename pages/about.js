@@ -136,7 +136,7 @@ const About = () => {
                   <li>
                     <i className="bi bi-arrow-right-circle" />{" "}
                     <span> Flexible Learning </span>
-                  </li>
+                  </li> &nbsp;&nbsp;&nbsp;&nbsp;
                   <li>
                     <i className="bi bi-arrow-right-circle" />{" "}
                     <span> Comprehensive Curriculum </span>
@@ -182,11 +182,11 @@ const About = () => {
                         </li>
                         <li>
                           <i className="fas fa-check" />
-                          <span>Intellectual and spiritual development. </span>
+                          <span>Intellectual  development. </span>
                         </li>
                         <li>
                           <i className="fas fa-check" />
-                          <span>Intellectual and spiritual development. </span>
+                          <span> Spiritual development. </span>
                         </li>
                       </ul>
                     </Tab.Pane>{" "}
@@ -212,7 +212,7 @@ const About = () => {
                         </li>
                         <li>
                           <i className="fas fa-check" />
-                          <span>Providing impactful education.</span>
+                          <span>Delivering transformative experiences.</span>
                         </li>
                       </ul>
                     </Tab.Pane>{" "}
