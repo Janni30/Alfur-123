@@ -1475,7 +1475,7 @@ const Menus_DaskTopMenusMenus = ()=>{
                                             className: "",
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                    src: "assets/img/2.png",
+                                                    src: "assets/img/course11.png",
                                                     alt: "Tajweed",
                                                     width: 250,
                                                     height: 200,
@@ -1497,7 +1497,7 @@ const Menus_DaskTopMenusMenus = ()=>{
                                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                    src: "assets/img/3.png",
+                                                    src: "assets/img/course22.png",
                                                     alt: "",
                                                     width: 250,
                                                     height: 200,
@@ -1519,7 +1519,7 @@ const Menus_DaskTopMenusMenus = ()=>{
                                         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
                                             children: [
                                                 /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                    src: "assets/img/1.png",
+                                                    src: "assets/img/course33.png",
                                                     alt: "",
                                                     width: 250,
                                                     height: 200,

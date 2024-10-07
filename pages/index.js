@@ -81,7 +81,10 @@ const Index = () => {
       {/*==================================================*/}
       {/* Start consen feature Area */}
       {/*==================================================*/}
-      <div className="container pt-40" >
+
+
+      <br/>   <br/><br/>
+      <div className="container pt-40" data-aos="fade-up">
       <div className="row">
             <div className="col-lg-7 col-md-6">
               <div className="consen-section-title  pb-50 mb-1">
@@ -98,7 +101,7 @@ const Index = () => {
 
 
 
-      <div className="feature-area">
+      <div className="feature-area" data-aos="fade-up"> 
         <div className="container">
           <div className="row feature-bg">
             <div className="col-lg-4 col-md-6">
@@ -192,9 +195,9 @@ const Index = () => {
               </div>
             </div>
             {/* feature shape */}
-            <div className="feature-shape bounce-animate2">
+            {/* <div className="feature-shape bounce-animate2">
               <img src="assets/images/resource/all-shap.png" alt />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -204,7 +207,7 @@ const Index = () => {
    {/*==================================================*/}
       {/* End consen about Area */}
       {/*==================================================*/}
-      <div className="about-area">
+      <div className="about-area" data-aos="fade-up">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
@@ -265,9 +268,9 @@ const Index = () => {
               </div>
             </div>
             {/* about thumb */}
-            <div className="about-shape-thumb2 bounce-animate4">
-              {/* <img src="assets/images/resource/lamp.png"  height={150}alt /> */}
-            </div>
+            {/* <div className="about-shape-thumb2 bounce-animate4">
+              <img src="assets/images/resource/lamp.png"  height={150}alt />
+            </div> */}
           </div>
          
         </div>
@@ -278,7 +281,7 @@ const Index = () => {
       {/*==================================================*/}
       {/* End consen about Area */}
       {/*==================================================*/}
-      <div className="ceo-cod-area">
+      <div className="ceo-cod-area" data-aos="fade-up">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 ">
@@ -332,7 +335,7 @@ const Index = () => {
       {/* Start consen case study Area */}
       {/*==================================================*/}
       
-      <div className="about-area-banner pt-1">
+      <div className="about-area-banner pt-1" data-aos="fade-up">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 ">
@@ -402,7 +405,7 @@ const Index = () => {
       {/*==================================================*/}
       {/* Start consen process Area */}
       {/*==================================================*/}
-      <div className="process-area">
+      <div className="process-area" data-aos="fade-up">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 pr-5">
@@ -434,7 +437,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div> */}
-                <div className="col-sm-6 pl-10 pr-10">
+                <div className="col-sm-6 pl-10 pr-10" data-aos="fade-up">
                   <div className="process-single-box upper1">
                     <div className="process-number">
                       <span>1</span>
@@ -448,7 +451,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6 pl-10 pr-10">
+                <div className="col-sm-6 pl-10 pr-10" data-aos="fade-up">
                   <div className="process-single-box upper2">
                     <div className="process-number">
                       <span>2</span>
@@ -464,7 +467,7 @@ const Index = () => {
                   </div>
                 </div>
 
-                <div className="col-sm-6 pl-10 pr-10">
+                <div className="col-sm-6 pl-10 pr-10" data-aos="fade-up">
                   <div className="process-single-box">
                     <div className="process-number">
                       <span>3</span>
@@ -477,7 +480,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6 pl-10 pr-10">
+                <div className="col-sm-6 pl-10 pr-10" data-aos="fade-up">
                   <div className="process-single-box upper">
                     <div className="process-number">
                       <span>4</span>
@@ -493,7 +496,7 @@ const Index = () => {
                   </div>
                 </div>
 
-                <div className="col-sm-6 pl-10 pr-10">
+                <div className="col-sm-6 pl-10 pr-10" data-aos="fade-up">
                   <div className="process-single-box">
                     <div className="process-number">
                       <span>5</span>
@@ -506,7 +509,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6 pl-10 pr-10">
+                <div className="col-sm-6 pl-10 pr-10" data-aos="fade-up">
                   <div className="process-single-box upper">
                     <div className="process-number">
                       <span>6</span>
@@ -522,16 +525,16 @@ const Index = () => {
                 </div>
                 
                 <div className="process-shape">
-                  <div className="process-thumb">
+                  {/* <div className="process-thumb">
                     <img src="assets/images/resource/process-shape.png" alt />
-                  </div>
+                  </div> */}
                   <div className="process-thumb1">
                     <img src="assets/images/resource/dreamit-shape.png" alt />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 pl-5">
+            <div className="col-lg-6 col-md-12 pl-5" data-aos="fade-up">
               <div className="row process-bg">
               <div className="consen-section-title mt-4 mt-lg-0 p-4">
                 <h2> What We Provide </h2>
@@ -643,7 +646,7 @@ const Index = () => {
        {/*==================================================*/}
       {/* Start consen process Area */}
       {/*==================================================*/}
-      <div className="process-area style-two pt-5 pb-5">
+      <div className="process-area style-two pt-5 pb-5" data-aos="fade-up">
         <div className="container">
           <div className="row align-items-center ">
             <div className="col-lg-5 col-md-6">
@@ -731,7 +734,7 @@ const Index = () => {
 
       </div> */}
 
-<div className="social-media-marketing-services">
+<div className="social-media-marketing-services" data-aos="fade-up">
   <div className="container">
     <h2 className="text-center" style={{color:'#E63946'}}>Our Process</h2>
     <p className="text-center">A streamlined approach to social media marketing success</p>
@@ -799,7 +802,7 @@ const Index = () => {
             {/*==================================================*/}
       {/* Start consen Testimonial Area */}
       {/*==================================================*/}
-      <div className="testimonial-area">
+      <div className="testimonial-area" data-aos="fade-up">
         <div className="container">
           <div className="row testi-rotate align-items-center">
             <div className="col-lg-7 col-md-6">
@@ -1062,7 +1065,7 @@ const Index = () => {
       {/* Start faq Area */}
       {/*==================================================*/}
       <br/><br/><br/><br/><br/>
-      <div className="faq-area">
+      <div className="faq-area" data-aos="fade-up">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-md-6 pl-0">

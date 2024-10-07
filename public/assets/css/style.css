@@ -8782,5 +8782,88 @@ p.text-center {
   box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
+.erp-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  padding: 40px;
+ 
+}
 
+
+.erp-header {
+  background: linear-gradient(to right, orange,  rgb(240, 198, 120));
+  color: white;
+  width: 30%; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.erp-header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #14176c;
+}
+
+.erp-header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.erp-header ul li {
+  margin-bottom: 15px;
+ 
+}
+
+.erp-header ul li a {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.055);
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.erp-header ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.erp-content {
+  width: 70%;
+  text-align: center;
+  box-sizing: border-box;
+  display: none; 
+  align-items: center;
+}
+
+
+.erp-content.active {
+  display: block;
+}
+
+
+.erp-benefit-section h2 {
+  color: orange;
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.erp-benefit-section p {
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0);
+  line-height: 1.6;
+  text-align: justify;
+  padding: 10px;
+
+}
 

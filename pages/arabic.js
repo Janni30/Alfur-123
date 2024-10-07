@@ -1,9 +1,9 @@
 import React from 'react'
 import Breadcumb from "@/src/components/Breadcumb";
-import Faqs1 from "@/src/components/Faqs1";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 import Faqs3 from '@/src/components/Faqs3';
+import Tabs from '@/src/components/Tabs';
 
 const Arabic = () => {
     return (
@@ -306,11 +306,28 @@ const Arabic = () => {
                   </div>
                 </div>
               </div>
-                <Faqs3 />
               </div>
+<br/>
+<br/>
+
+<Tabs />
+              <br/> <br/>
+              <div className="faq-area" data-aos="fade-up">
+                <div className="container">
+                  <div className="col-lg-12 col-md-12 pl-0 max-w-full">
+                      <div className="tab_container">
+                        <div className="consen-section-title white pb-40 mb-1">
+                          <h5> FAQ </h5>
+                          <h2> Frequently Asked <span> Question </span></h2>
+                        </div>
+                        <Faqs3 />                      
+                        </div>
+                    </div>
+                  </div>
+                </div>
                   </div>
           
-        
+                 
         </Layout>
       );
 }

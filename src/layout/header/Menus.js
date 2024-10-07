@@ -32,7 +32,7 @@ export const DaskTopMenusMenus = () => {
             <li className="col">
               <Link legacyBehavior href="/tajweed">
                 <a className="">
-                  <img src="assets/img/2.png" alt="Tajweed" width={250} height={200} className="p-20 align-middle justify-center ml-40"/>
+                  <img src="assets/img/course11.png" alt="Tajweed" width={250} height={200} className="p-20 align-middle justify-center ml-40"/>
                   <p className="mt-20 text-center">Tajweed Masterclass</p>
                 </a>
               </Link>
@@ -40,7 +40,7 @@ export const DaskTopMenusMenus = () => {
             <li className="col">
               <Link legacyBehavior href="/quran">
                 <a>
-                  <img src="assets/img/3.png" alt="" width={250} height={200} className="p-20 align-middle justify-center ml-40"/>
+                  <img src="assets/img/course22.png" alt="" width={250} height={200} className="p-20 align-middle justify-center ml-40"/>
                   <p className="mt-20 text-center">Qur'an Memorization</p>
                 </a>
               </Link>
@@ -48,7 +48,7 @@ export const DaskTopMenusMenus = () => {
             <li className="col">
               <Link legacyBehavior href="/arabic">
                 <a>
-                  <img src="assets/img/1.png" alt="" width={250} height={200} className="p-20 align-middle justify-center ml-40"/>
+                  <img src="assets/img/course33.png" alt="" width={250} height={200} className="p-20 align-middle justify-center ml-40"/>
                   <p className="mt-20 text-center">Learn Arabic Language </p>
                 </a>
               </Link>

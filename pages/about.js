@@ -54,7 +54,7 @@ const About = () => {
           </div>
         </div>
       </div> */}
-      <div className="about-area new-style">
+      <div className="about-area new-style" data-aos="fade-up">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -62,7 +62,7 @@ const About = () => {
                 <img src="assets/images/about/about3.png" alt />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6" >
               <div className="consen-section-title">
                 <h5> ABOUT OUR ACADEMY</h5>
                 <h2> We Execuite Our Ideas From</h2>
@@ -116,7 +116,7 @@ const About = () => {
       {/*=================================================*/}
       {/* START  feture-area Section */}
       {/*=================================================*/}
-     <div className="feature-area style-two">
+     <div className="feature-area style-two" data-aos="fade-up">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-12">
@@ -548,7 +548,7 @@ const About = () => {
       {/*==================================================*/}
       {/* Start consen Team Area */}
       {/*==================================================*/}
-      <div className="team_area style-two">
+      <div className="team_area style-two" data-aos="fade-up">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -561,7 +561,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row" data-aos="fade-up">
             <div className="col-lg-4 col-md-6">
               <div className="single_team">
                 <div className="single_team_thumb1">
@@ -661,7 +661,7 @@ const About = () => {
       {/*==================================================*/}
       {/* Start  FAQ Section */}
       {/*===================================================*/}
-      <div className="faq-sectiions ">
+      <div className="faq-sectiions" data-aos="fade-up">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-12">
@@ -718,7 +718,7 @@ const About = () => {
         </div>
       </div>
       {/*==================================================*/}
-
+       <br/> <br/> <br/>
       
       {/*Start  Brand Section */}
       {/*===================================================*/}
