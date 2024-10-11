@@ -48,7 +48,7 @@ const Quran = () => {
                               <p>
                               The Quran memorization course involves memorizing the entire book. An individual who has memorized the Quran is referred to as a “Hafiz” in the Arabic language. Reading and memorizing the Quran’s verses and Ayah are both considered to be practicing Hifz, which is the Arabic word for learning or memorization.
 
-The Quran is the almighty Allah’s blessing that cannot be replaced by the entire universe, heavens and earth, and all creatures in between.
+                              The Quran is the almighty Allah’s blessing that cannot be replaced by the entire universe, heavens and earth, and all creatures in between.
 
      </p>
                               <p className="pb-35"><br/>

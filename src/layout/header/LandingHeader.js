@@ -106,7 +106,7 @@
                   </div>
                   <div className="header-button">
                     <Link legacyBehavior href="contact">
-                      Request a Quote
+                    Book Free Session
                     </Link>
                   </div>
                 </nav>
@@ -194,9 +194,7 @@
                       <li className="linkedin">
                         <a href="#" className="fab fa-twitter" />
                       </li>
-                      <li className="instagram">
-                        <a href="#" className="fab fa-pinterest-p" />
-                      </li>
+                   
                       <li className="youtube">
                         <a href="#" className="fab fa-linkedin-in" />
                       </li>

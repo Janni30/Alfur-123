@@ -1,73 +1,68 @@
+import { useState } from "react";
 import Link from "next/link";
 
 export const DaskTopMenusMenus = () => {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsDropdownOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsDropdownOpen(false);
+  };
+
   return (
     <ul className="nav_scroll text-center">
-      <li>
-        <a href="/">
-          Home
-          <span>
-            <i className="fas" />
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="/about">
-          About Us
-          <span>
-            <i className="fas" />
-          </span>
-        </a>
-      </li>
+      {/* Search Bar */}
+      <div className="search-bar">
+        <form>
+          <input type="text" placeholder="Search..." />
+          <button type="submit">
+            <i className="fas fa-search" />
+          </button>
+        </form>
+      </div>
 
+      {/* Courses Menu */}
       <li>
         <a href="#">
           Courses
-          <span>
-            <i className="fas fa-angle-down" />
-          </span>
         </a>
-        <ul className="sub-menus courses-menu-horizontal " style={{backgroundColor:'#223857'}}>
-          <div className="row" >
-            <li className="col">
-              <Link legacyBehavior href="/tajweed">
-                <a className="">
-                  <img src="assets/img/course11.png" alt="Tajweed" width={250} height={200} className="p-20 align-middle justify-center ml-40"/>
-                  <p className="mt-20 text-center">Tajweed Masterclass</p>
-                </a>
-              </Link>
-            </li>
-            <li className="col">
-              <Link legacyBehavior href="/quran">
-                <a>
-                  <img src="assets/img/course22.png" alt="" width={250} height={200} className="p-20 align-middle justify-center ml-40"/>
-                  <p className="mt-20 text-center">Qur'an Memorization</p>
-                </a>
-              </Link>
-            </li>
-            <li className="col">
-              <Link legacyBehavior href="/arabic">
-                <a>
-                  <img src="assets/img/course33.png" alt="" width={250} height={200} className="p-20 align-middle justify-center ml-40"/>
-                  <p className="mt-20 text-center">Learn Arabic Language </p>
-                </a>
-              </Link>
-            </li>
-           
-          </div>
-        </ul>
       </li>
 
-
+      {/* Pricing Menu */}
       <li>
         <Link legacyBehavior href="/pricing">
           Pricing
         </Link>
       </li>
-      <li>
-        <Link legacyBehavior href="/contact">
-          Contact
-        </Link>
+
+      {/* Discover Menu with Dropdown on Hover */}
+      <li
+        className="dropdown"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <a href="#">
+          Discover
+          <span>
+            <i className="fas fa-angle-down" />
+          </span>
+        </a>
+
+        {/* Dropdown Menu */}
+        {isDropdownOpen && (
+          <ul className="dropdown-menu">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Teachers</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        )}
       </li>
     </ul>
   );

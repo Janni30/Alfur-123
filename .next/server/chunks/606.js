@@ -1412,131 +1412,45 @@ var jsx_runtime_ = __webpack_require__(997);
 // EXTERNAL MODULE: ./node_modules/next/link.js
 var next_link = __webpack_require__(1664);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
 ;// CONCATENATED MODULE: ./src/layout/header/Menus.js
 
 
+
 const Menus_DaskTopMenusMenus = ()=>{
+    const [isDropdownOpen, setIsDropdownOpen] = (0,external_react_.useState)(false);
+    const handleMouseEnter = ()=>{
+        setIsDropdownOpen(true);
+    };
+    const handleMouseLeave = ()=>{
+        setIsDropdownOpen(false);
+    };
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
         className: "nav_scroll text-center",
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                    href: "/",
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: "search-bar",
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
                     children: [
-                        "Home",
-                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                            type: "text",
+                            placeholder: "Search..."
+                        }),
+                        /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                            type: "submit",
                             children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                className: "fas"
+                                className: "fas fa-search"
                             })
                         })
                     ]
                 })
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                    href: "/about",
-                    children: [
-                        "About Us",
-                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                className: "fas"
-                            })
-                        })
-                    ]
+                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                    href: "#",
+                    children: "Courses"
                 })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                        href: "#",
-                        children: [
-                            "Courses",
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                    className: "fas fa-angle-down"
-                                })
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("ul", {
-                        className: "sub-menus courses-menu-horizontal ",
-                        style: {
-                            backgroundColor: "#223857"
-                        },
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "row",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    className: "col",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                        legacyBehavior: true,
-                                        href: "/tajweed",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                            className: "",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                    src: "assets/img/course11.png",
-                                                    alt: "Tajweed",
-                                                    width: 250,
-                                                    height: 200,
-                                                    className: "p-20 align-middle justify-center ml-40"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: "mt-20 text-center",
-                                                    children: "Tajweed Masterclass"
-                                                })
-                                            ]
-                                        })
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    className: "col",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                        legacyBehavior: true,
-                                        href: "/quran",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                    src: "assets/img/course22.png",
-                                                    alt: "",
-                                                    width: 250,
-                                                    height: 200,
-                                                    className: "p-20 align-middle justify-center ml-40"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: "mt-20 text-center",
-                                                    children: "Qur'an Memorization"
-                                                })
-                                            ]
-                                        })
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    className: "col",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                                        legacyBehavior: true,
-                                        href: "/arabic",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                                    src: "assets/img/course33.png",
-                                                    alt: "",
-                                                    width: 250,
-                                                    height: 200,
-                                                    className: "p-20 align-middle justify-center ml-40"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    className: "mt-20 text-center",
-                                                    children: "Learn Arabic Language "
-                                                })
-                                            ]
-                                        })
-                                    })
-                                })
-                            ]
-                        })
-                    })
-                ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("li", {
                 children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
@@ -1545,12 +1459,70 @@ const Menus_DaskTopMenusMenus = ()=>{
                     children: "Pricing"
                 })
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
-                    legacyBehavior: true,
-                    href: "/contact",
-                    children: "Contact"
-                })
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("li", {
+                className: "dropdown",
+                onMouseEnter: handleMouseEnter,
+                onMouseLeave: handleMouseLeave,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
+                        href: "#",
+                        children: [
+                            "Discover",
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
+                                    className: "fas fa-angle-down"
+                                })
+                            })
+                        ]
+                    }),
+                    isDropdownOpen && /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
+                        className: "dropdown-menu",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    href: "#",
+                                    children: "About us"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    href: "#",
+                                    children: "Blog"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    href: "#",
+                                    children: "Teachers"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    href: "#",
+                                    children: "Testimonials"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    href: "#",
+                                    children: "Career"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    href: "#",
+                                    children: "FAQ"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                    href: "#",
+                                    children: "Contact Us"
+                                })
+                            })
+                        ]
+                    })
+                ]
             })
         ]
     });
@@ -1628,8 +1600,6 @@ const DefaultHeader = ()=>{
 };
 /* harmony default export */ const header_DefaultHeader = ((/* unused pure expression or super */ null && (DefaultHeader)));
 
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
 ;// CONCATENATED MODULE: ./src/layout/header/Header2.js
 
 
@@ -1764,7 +1734,7 @@ const Header2 = ()=>{
                                             children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
                                                 legacyBehavior: true,
                                                 href: "",
-                                                children: "Request a Quote"
+                                                children: "Book Free Sessions"
                                             })
                                         })
                                     ]
@@ -1966,150 +1936,172 @@ const Header = ({ header  })=>{
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* unused harmony export MobileToggleMenu */
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1664);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
-const MobileMenu = ()=>{
-    const [toggle, setToggle] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);
-    const [activeMenu, setActiveMenu] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)("");
-    const [subMenus, setSubMenus] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)("");
-    const activeMenuSet = (value)=>setActiveMenu(activeMenu === value ? "" : value), activeBtn = (value)=>value === activeMenu ? "-" : "+", activeLi = (value)=>value === activeMenu ? {
-            display: "block"
-        } : {
-            display: "none"
-        }, setSub = (value, motherMenu)=>motherMenu === activeMenu && value == subMenus ? setSubMenus("") : setSubMenus(value), activeSub = (value)=>value === subMenus ? {
-            display: "block"
-        } : {
-            display: "none"
-        };
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: "mobile-menu-area d-sm-block d-md-block d-lg-none header____",
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "mobile-menu mean-container",
-            children: [
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "mean-bar",
+const MobileToggleMenu = ()=>{
+    const [isDropdownOpen, setIsDropdownOpen] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false); // For Discover dropdown
+    const [isMenuOpen, setIsMenuOpen] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false); // For mobile menu toggle
+    const handleMouseEnter = ()=>{
+        setIsDropdownOpen(true);
+    };
+    const handleMouseLeave = ()=>{
+        setIsDropdownOpen(false);
+    };
+    const handleMenuToggle = ()=>{
+        setIsMenuOpen(!isMenuOpen); // Toggle mobile menu
+    };
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: "mobile-menu",
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                className: "menu-toggle",
+                onClick: handleMenuToggle,
+                children: isMenuOpen ? "X" : /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
+                    className: "menu-bars",
                     children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                            href: "#nav",
-                            className: `meanmenu-reveal ${toggle ? "meanclose" : ""}`,
-                            onClick: ()=>setToggle(!toggle),
-                            children: toggle ? "X" : /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react__WEBPACK_IMPORTED_MODULE_2__.Fragment, {
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {}),
-                                    " ",
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {}),
-                                    " ",
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {})
-                                ]
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {}),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {}),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {})
+                    ]
+                })
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                className: "nav_scroll text-center",
+                style: {
+                    display: isMenuOpen ? "block" : "none"
+                },
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "logo",
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            legacyBehavior: true,
+                            href: "/",
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                className: "logo_img",
+                                title: "Al",
+                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                                    src: "assets/images/logo.png",
+                                    alt: "logo",
+                                    height: 50
+                                })
                             })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("nav", {
-                            className: "mean-nav",
-                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                                className: "nav_scroll",
-                                style: {
-                                    display: toggle ? "block" : "none"
-                                },
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                        className: "search-bar",
+                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("form", {
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("input", {
+                                    type: "text",
+                                    placeholder: "Search...",
+                                    style: {
+                                        height: "20px"
+                                    }
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                    type: "submit",
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
+                                        className: "fas fa-search"
+                                    })
+                                })
+                            ]
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                        style: {
+                            border: "2px solid black"
+                        },
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                            href: "#",
+                            children: "Courses"
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
+                            legacyBehavior: true,
+                            href: "/pricing",
+                            children: "Pricing"
+                        })
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
+                        className: "dropdown",
+                        onMouseEnter: handleMouseEnter,
+                        onMouseLeave: handleMouseLeave,
+                        children: [
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+                                href: "#",
+                                children: [
+                                    "Discover",
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
+                                            className: "fas fa-angle-down"
+                                        })
+                                    })
+                                ]
+                            }),
+                            isDropdownOpen && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                className: "dropdown-menu",
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            href: "/",
-                                            children: "Home "
+                                            href: "#",
+                                            children: "About us"
                                         })
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            href: "/about",
-                                            children: "About Us "
-                                        })
-                                    }),
-                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
-                                        children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                href: "#",
-                                                children: "Courses "
-                                            }),
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                                                className: "sub-menu",
-                                                style: activeLi("Services"),
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                            legacyBehavior: true,
-                                                            href: "/tajweed",
-                                                            children: "Tajweed MasterClass"
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                            legacyBehavior: true,
-                                                            href: "/quran",
-                                                            children: "Qur'an Memorization"
-                                                        })
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                            legacyBehavior: true,
-                                                            href: "/arabic",
-                                                            children: "Learn Arabic Language"
-                                                        })
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                className: "mean-expand",
-                                                href: "#",
-                                                onClick: ()=>activeMenuSet("Services"),
-                                                style: {
-                                                    fontSize: 18
-                                                },
-                                                children: activeBtn("Services")
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                            legacyBehavior: true,
-                                            href: "/pricing",
-                                            children: "Pricing"
+                                            href: "#",
+                                            children: "Blog"
                                         })
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        className: "mean-last",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                            legacyBehavior: true,
-                                            href: "/contact",
-                                            children: "Contact"
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            href: "#",
+                                            children: "Teachers"
                                         })
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        className: "header-button pl-0",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                            legacyBehavior: true,
-                                            href: "/contact",
-                                            children: "Request a Quote"
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            href: "#",
+                                            children: "Testimonials"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            href: "#",
+                                            children: "Career"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            href: "#",
+                                            children: "FAQ"
+                                        })
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            href: "#",
+                                            children: "Contact Us"
                                         })
                                     })
                                 ]
                             })
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "mean-push"
-                })
-            ]
-        })
+                        ]
+                    })
+                ]
+            })
+        ]
     });
 };
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MobileMenu);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MobileToggleMenu);
 
 
 /***/ }),

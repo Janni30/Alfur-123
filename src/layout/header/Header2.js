@@ -77,7 +77,7 @@ const Header2 = () => {
                 <DaskTopMenusMenus />
                 <div className="header-button">
                   <Link legacyBehavior href="">
-                    Request a Quote
+                  Book Free Sessions
                   </Link>
                 </div>
               </nav>

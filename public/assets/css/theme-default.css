@@ -54,7 +54,7 @@ a {
 }
 
 a {
-  color: #43baff;
+  color: #1a1b1c;
 }
 
 a:focus,
@@ -192,6 +192,7 @@ li,
 ul {
   font-style: normal;
   font-weight: 400;
+  border: 10px black;
 }
 em {
   font-style: normal;

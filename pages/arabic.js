@@ -6,7 +6,26 @@ import Faqs3 from '@/src/components/Faqs3';
 import Tabs from '@/src/components/Tabs';
 
 const Arabic = () => {
+  
     return (
+      <>
+      <style>{`
+      @media (max-width: 768px) {
+     .service-details-box {
+    background-image: url(../img/g1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 25px 13px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    padding-right: 90px;
+    height: 400px;
+}
+      
+      `}
+
+      </style>
         <Layout>
           <Breadcumb pageName={"Course"} />
           {/*==================================================*/}
@@ -36,10 +55,7 @@ const Arabic = () => {
                             </div>
                             </div>
                           </div>
-    
-    
-    
-    
+
                         <div className="service-details-content">
                           <div className="service-page-title">
                             <h1> Course Description</h1>
@@ -53,7 +69,7 @@ const Arabic = () => {
                               We offer three main subjects in Arabic studies
 
                                  <ul className='pl-3'>
-                                  <li  >Arabic Studies
+                                  <li>Arabic Studies
                                   </li>
                                   <li>Islamic for Muslims Studies</li>
                                   <li>Social Studies</li>
@@ -309,7 +325,6 @@ const Arabic = () => {
               </div>
 <br/>
 <br/>
-
 <Tabs />
               <br/> <br/>
               <div className="faq-area" data-aos="fade-up">
@@ -329,6 +344,7 @@ const Arabic = () => {
           
                  
         </Layout>
+        </>
       );
 }
 
