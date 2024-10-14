@@ -1,134 +1,171 @@
-import React from "react";
+import React from 'react';
 
 const TimedContainers = () => {
   return (
-    <>
+    <div style={styles.container}>
+      <div style={styles.infographicMain}>
+        <div style={styles.mainCircle}>
+          <h2 style={styles.mainTitle}>INFOGRAPHIC</h2>
+          <p style={styles.subTitle}>Some Title Here</p>
+        </div>
+
+        <div className="arrow"></div>
+
+        {/* Step 01 */}
+        <div style={styles.stepItem}>
+          <div style={styles.circle}>
+            <div style={styles.circleContent}>
+              <p style={styles.circleText} data-aos="fade-right">
+                STEP 01
+              </p>
+              <img 
+                src="assets/img/pl.png" 
+                alt="Shape" 
+                height={40} 
+                width={40} 
+                style={styles.circleImage} 
+              />
+            </div>
+          </div>
+          <p style={styles.stepText} data-aos="fade-up">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+
+        <div className="arrow"></div>
+        
+        {/* Add other steps */}
+        {/* Step 02 */}
+        <div style={styles.stepItem}>
+          <div style={styles.circle}>
+            <p style={styles.circleText} data-aos="fade-up">STEP 02</p>
+          </div>
+          <p style={styles.stepText} data-aos="fade-up">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+
+        <div className="arrow"></div>
+        
+        {/* Step 03 */}
+        <div style={styles.stepItem}>
+          <div style={styles.circle}>
+            <p style={styles.circleText} data-aos="fade-right">STEP 03</p>
+          </div>
+          <p style={styles.stepText} data-aos="fade-up">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+
+      {/* Add the keyframes in a <style> block */}
       <style jsx>{`
-        .container-row {
-          display: flex;
-          flex-wrap: wrap; /* Allow items to wrap on smaller screens */
-          justify-content: space-around; /* Ensure the containers are in the same row */
+        .arrow {
+          width: 0;
+          height: 0;
+          border-left: 20px solid transparent;
+          border-right: 20px solid transparent;
+          border-top: 20px solid #36d1dc;
+          margin: 20px 0;
+          animation: moveArrow 2s ease-in-out infinite;
         }
 
-        .container {
-          width: 300px;
-          height: 150px;
-          background-color: #223857;
-          padding: 20px;
-          border: 1px solid #ddd;
-          opacity: 0; /* Initially hidden */
-          transform: translateY(20px); /* Slightly move it down initially */
-          animation: fadeIn 1s forwards; /* Animation will be triggered */
-        }
-
-        .box-1 {
-          animation-delay: 1s;
-          border-radius: 20px 10px 20px 10px; 
-        }
-
-        .box-2 {
-          animation-delay: 3s;
-          border-radius: 20px 10px 20px 10px;
-        }
-
-        .box-3 {
-          animation-delay: 5s;
-          border-radius: 20px 10px 20px 10px;
-        }
-
-        .box-5,
-        .box-6 {
-          width: 100px;
-          height: 100px;
-          opacity: 0;
-          animation: fadeInImage 4s forwards;
-          transform: scale(0); /* Initially scale down */
-        }
-
-        .box-5 {
-          animation-delay: 2s;
-        }
-
-        .box-6 {
-          animation-delay: 4s;
-        }
-
-        @keyframes fadeIn {
-          to {
-            opacity: 1;
+        @keyframes moveArrow {
+          0% {
+            transform: translateY(0);
+          }
+          50% {
+            transform: translateY(10px);
+          }
+          100% {
             transform: translateY(0);
           }
         }
-
-        @keyframes fadeInImage {
-          to {
-            opacity: 1;
-            transform: scale(1); /* You can also use scale for a slight zoom effect */
-          }
-        }
-
-        h3 {
-          color: #E63946; /* Set the h3 color */ 
-          margin-bottom: 15px;
-        }
-
-        p {
-          color: white; /* Set the p color */
-        }
-
-        /* Media Queries for Mobile View */
-        @media (max-width: 768px) {
-          .container-row {
-            flex-direction: column; /* Stack items vertically */
-            align-items: center; /* Center items horizontally */
-          }
-
-          .container {
-            width: 90%; /* Make containers take full width */
-            margin-bottom: 20px; /* Add space between containers */
-          }
-          .box-5,
-          .box-6 {
-            display: none; /* Hide box-5 and box-6 on mobile */
-          }
-          .box-5,
-          .box-6 {
-            width: 80px; /* Reduce image size for mobile */
-            height: 80px;
-            margin-top: 10px; /* Add margin above images */
-          }
-        }
       `}</style>
-
-      <div className="container-row">
-        <div className="container box-1">
-
-          <h3 style={{ textAlign: "center" }}> <img src="assets/img/pl.png" alt="Shape" height={50} width={50} style={{backgroundColor:'#fff', padding:'10px', borderRadius:'10px'}} />&nbsp; &nbsp;
-          Planning</h3>
-          <p style={{ textAlign: "center" }}>Set your course and your objective</p>
-        </div>
-        <div className="box-5">
-          <img src="assets/img/l1.jpg" alt="Shape" height={80} width={130} style={{ marginTop: '25px', marginLeft: '-10px' }} />
-        </div>
-        <div className="container box-2">
-
-          <h3 style={{ textAlign: "center" }}> <img src="assets/img/s.png" alt="Shape" height={50} width={50} style={{backgroundColor:'#fff', padding:'10px', borderRadius:'10px'}} />&nbsp; &nbsp;
-          Scheduling</h3>
-          <p style={{ textAlign: "center" }}>Create a timetable & plan schedule</p>
-        </div>
-        <div className="box-6">
-          <img src="assets/img/l11.jpg" alt="Shape" height={80} width={130} style={{ marginTop: '25px', marginLeft: '-10px', zIndex: '-1' }} />
-        </div>
-        <div className="container box-3">
-
-          <h3 style={{ textAlign: "center" }}>         <img src="assets/img/p.png" alt="Shape" height={50} width={50} style={{backgroundColor:'#fff', padding:'10px', borderRadius:'10px'}} />&nbsp; &nbsp;
-          Classes</h3>
-          
-          <p style={{ textAlign: "center" }}>Pay and begin your courses.</p>
-        </div>
-      </div>
-    </>
+    </div>
   );
+};
+
+const styles = {
+  container: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column',
+    marginTop: '20px',
+  },
+  infographicMain: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  mainCircle: {
+    width: '300px',
+    height: '300px',
+    borderRadius: '50%',
+    background: 'linear-gradient(135deg, #ff5f6d, #ffc371)',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+    color: 'white',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    marginBottom: '20px',
+  },
+  mainTitle: {
+    fontSize: '24px',
+    margin: '0',
+  },
+  subTitle: {
+    fontSize: '16px',
+    margin: '5px 0 0 0',
+  },
+  steps: {
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  stepItem: {
+    display: 'flex',
+    alignItems: 'center',
+    margin: '10px 0',
+  },
+  circle: {
+    width: '100px',
+    height: '100px',
+    borderRadius: '50%',
+    background: 'linear-gradient(135deg, #36d1dc, #5b86e5)',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    color: 'white',
+    fontSize: '18px',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    marginRight: '20px',
+  },
+  circleContent: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+  },
+  circleText: {
+    fontSize: '16px',
+    fontWeight: 'bold',
+    marginBottom: '10px', // To add space between text and image
+  },
+  circleImage: {
+    backgroundColor: '#fff',
+    padding: '4px',
+    borderRadius: '10px',
+    marginLeft: '5px',
+  },
+  stepText: {
+    fontSize: '14px',
+    color: '#555',
+    maxWidth: '300px',
+  },
 };
 
 export default TimedContainers;

@@ -2017,7 +2017,10 @@ const MobileToggleMenu = ()=>{
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
                         style: {
-                            border: "2px solid black"
+                            border: "1px solid black",
+                            borderRadius: "2px 22px 20px 34px",
+                            padding: "5px",
+                            width: "auto"
                         },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                             href: "#",
@@ -2025,6 +2028,10 @@ const MobileToggleMenu = ()=>{
                         })
                     }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                        style: {
+                            border: "2px solid black",
+                            borderRadius: "2px 22px 20px 34px"
+                        },
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
                             legacyBehavior: true,
                             href: "/pricing",
@@ -2035,6 +2042,10 @@ const MobileToggleMenu = ()=>{
                         className: "dropdown",
                         onMouseEnter: handleMouseEnter,
                         onMouseLeave: handleMouseLeave,
+                        style: {
+                            border: "2px solid black",
+                            borderRadius: "2px 22px 20px 34px"
+                        },
                         children: [
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
                                 href: "#",

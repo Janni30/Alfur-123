@@ -317,7 +317,7 @@ const Index = () => {
             </div>
             <div className="col-lg-6 col-md-12">
               <div className="dreamit-about-thumb1">
-                <img src="assets/img/about21.png" alt />
+                <img src="assets/img/abo.png" alt />
               </div>
               <div className="about-shape-box">
                 <div className="about-shape-thumb bounce-animate">

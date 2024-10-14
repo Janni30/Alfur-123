@@ -48,12 +48,12 @@ export const MobileToggleMenu = () => {
 
         {/* Courses Menu */}
         
-        <li style={{border:'2px solid black'}}>
+        <li style={{border:'1px solid black',borderRadius:'2px 22px 20px 34px', padding: '5px', width: 'auto'}}>
           <a href="#">Courses</a>
         </li>
 
         {/* Pricing Menu */}
-        <li>
+        <li  style={{border:'2px solid black',borderRadius:'2px 22px 20px 34px'}}>
           <Link legacyBehavior href="/pricing">
             Pricing
           </Link>
@@ -64,6 +64,7 @@ export const MobileToggleMenu = () => {
           className="dropdown"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
+          style={{border:'2px solid black',borderRadius:'2px 22px 20px 34px'}}
         >
           <a href="#">
             Discover
