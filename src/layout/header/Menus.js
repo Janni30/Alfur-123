@@ -54,7 +54,7 @@ export const DaskTopMenusMenus = () => {
         {/* Dropdown Menu */}
         {isDropdownOpen && (
           <ul className="dropdown-menu">
-            <li><a href="#">About us</a></li>
+            <li><a href="about">About us</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Teachers</a></li>
             <li><a href="#">Testimonials</a></li>

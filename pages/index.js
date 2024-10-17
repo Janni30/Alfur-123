@@ -10,7 +10,13 @@ import {
   testimonial_list_slider,
 } from "@/src/sliderProps";
 import { Card } from "react-bootstrap";
-import TimedContainers from "@/src/components/TimedContainers";
+
+import Process from "@/src/components/Process";
+import CTA from "@/src/components/CTA";
+import ProgressBar from "@/src/components/ProgressBar";
+import Testimo from "@/src/components/Testimo";
+import Pprocess from "@/src/components/Pprocess";
+
 const Index = () => {
   return (
     <Layout footer={1} >
@@ -105,6 +111,50 @@ const Index = () => {
         <div className="container">
           <div className="row feature-bg">
             <div className="col-lg-4 col-md-6">
+              <div className="single-feature-box0">
+                <div className="feature-box-inner0">
+                  <div className="feature-icon10">
+                    <img src="assets/img/quran.png" height={70} alt />
+                  </div>
+                  <div className="feature-title0">
+                    <h3> Quran </h3>
+                  </div>
+                  <div className="feature-text0">
+                    <p >
+                    <div className="about-button">
+                <Link legacyBehavior href="/contact">
+                  <a>
+                    {" "}
+                    Learn More <i className="bi bi-plus" />{" "}
+                  </a>
+                </Link>
+              </div>
+                    </p>
+                  </div>
+                  <div className="feature-bar0" />
+                </div>
+                {/* feature back */}
+                <div className="consen-feature-back0">
+                  <div className="feature-back-title0">
+                    <h3> Quran </h3>
+                    <h2> Quran Course </h2>
+                  </div>
+                  <div className="feature-back-icon0">
+                    <a href="/quran">
+                    </a>
+                   
+                  <div className="feature-text11">
+                    <p>
+                      {" "}
+                      Appropriately enhance principle-cent standards in
+                      platforms. Credibly orch popular services.{" "}
+                    </p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
               <div className="single-feature-box">
                 <div className="feature-box-inner">
                   <div className="feature-icon1">
@@ -115,9 +165,14 @@ const Index = () => {
                   </div>
                   <div className="feature-text">
                     <p>
-                      {" "}
-                      Appropriately enhance principle-cent standards in
-                      platforms. Credibly orch popular services.{" "}
+                    <div className="about-button">
+                <Link legacyBehavior href="/contact">
+                  <a>
+                    {" "}
+                    Learn More <i className="bi bi-plus" />{" "}
+                  </a>
+                </Link>
+              </div>
                     </p>
                   </div>
                   <div className="feature-bar" />
@@ -130,36 +185,13 @@ const Index = () => {
                   </div>
                   <div className="feature-back-icon">
                     <a href="/tajweed"></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="single-feature-box0">
-                <div className="feature-box-inner0">
-                  <div className="feature-icon10">
-                    <img src="assets/img/quran.png" height={70} alt />
-                  </div>
-                  <div className="feature-title0">
-                    <h3> Quran </h3>
-                  </div>
-                  <div className="feature-text0">
+                    <div className="feature-text11">
                     <p>
                       {" "}
                       Appropriately enhance principle-cent standards in
                       platforms. Credibly orch popular services.{" "}
                     </p>
                   </div>
-                  <div className="feature-bar0" />
-                </div>
-                {/* feature back */}
-                <div className="consen-feature-back0">
-                  <div className="feature-back-title0">
-                    <h3> Quran </h3>
-                    <h2> Quran Course </h2>
-                  </div>
-                  <div className="feature-back-icon0">
-                    <a href="/quran"></a>
                   </div>
                 </div>
               </div>
@@ -175,9 +207,14 @@ const Index = () => {
                   </div>
                   <div className="feature-text1">
                     <p>
-                      {" "}
-                      Appropriately enhance principle-cent standards in
-                      platforms. Credibly orch popular services.{" "}
+                    <div className="about-button">
+                <Link legacyBehavior href="/contact">
+                  <a>
+                    {" "}
+                    Learn More <i className="bi bi-plus" />{" "}
+                  </a>
+                </Link>
+              </div>
                     </p>
                   </div>
                   <div className="feature-bar1" />
@@ -190,6 +227,13 @@ const Index = () => {
                   </div>
                   <div className="feature-back-icon1">
                     <a href="/arabic"></a>
+                    <div className="feature-text11">
+                    <p>
+                      {" "}
+                      Appropriately enhance principle-cent standards in
+                      platforms. Credibly orch popular services.{" "}
+                    </p>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -204,6 +248,8 @@ const Index = () => {
       {/*==================================================*/}
       {/* End consen feature Area */}
       {/*==================================================*/}
+
+
    {/*==================================================*/}
       {/* End consen about Area */}
       {/*==================================================*/}
@@ -281,7 +327,7 @@ const Index = () => {
       {/*==================================================*/}
       {/* End consen about Area */}
       {/*==================================================*/}
-      <div className="ceo-cod-area" data-aos="fade-up">
+    {/* <div className="ceo-cod-area" data-aos="fade-up">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 ">
@@ -327,7 +373,13 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>   */}
+
+
+
+
+ <CTA />
+
       {/*==================================================*/}
       {/* End consen about Area */}
       {/*==================================================*/}
@@ -523,6 +575,8 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
+
+
                 
                 <div className="process-shape">
                   {/* <div className="process-thumb">
@@ -535,40 +589,62 @@ const Index = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-12 pl-5" data-aos="fade-up">
-              <div className="row process-bg">
-              <div className="consen-section-title mt-4 mt-lg-0 p-4">
-                <h2> What We Provide </h2>
+              <div className="consen-section-title">
+                <h5> About Consen </h5>
+                <h2> We Are Global Stakeholder </h2>
                 <h2>
                   {" "}
-                  Arabic <span> Quaran </span>
+                  Over 2000+ <span> Companies </span>
                 </h2>
-              </div>
-                <div className="lines style-three pt-30 pb-10">
-                  <div className="line" />
-                </div>
-              <div className="dreamit-smart-title p-4">
-                <h4>
+                <p className="about-text1">
                   {" "}
-                  For Choose <span>Alfurqan</span> Before know who we are?{" "}
-                </h4>
-              <p>We have customized and flexible online study courses suitable for all family members. Also, we have an attractive and informative crash course for kids and teens</p>
-              <p><span>Comprehensive Arabic Courses </span>from beginner to advanced, focusing on grammar, vocabulary, and Modern Standard Arabic.</p>
-              <p><span>Quran Recitation & Hifz Programs</span> with Tajweed rules and guided memorization for proper Quranic recitation.</p>
-              <p><span>Tajweed Courses </span>offering both theoretical understanding and practical recitation coaching.</p>
-              <p><span>Arabic for Quranic Understanding, </span>focusing on essential Quranic vocabulary and context-based learning.</p>
-              <p><span>Interactive Learning </span>with live sessions, feedback, and practice exercises to track progress.</p>
-              <p><span>Flexible Learning Options,</span> including online classes and recorded sessions to suit different schedules.</p>
+                  Appropriately enhance principle-centered innovation rather
+                  than high standards in platforms. Credibly orchestrate
+                  functional.{" "}
+                </p>
               </div>
-              <div className="about-button p-4">
-                  <Link legacyBehavior href="/contact">
-                    <a>
-                      {" "}
-                      More About <i className="bi bi-plus" />{" "}
-                    </a>
-                  </Link>
+              <div className="dreamit-icon-box">
+                <div className="dreamit-icon-list">
+                  <ul>
+                    <li>
+                      <i className="bi bi-arrow-right-circle" />{" "}
+                      <span style={{color:'black'}}> Communicate orthogonal process</span>
+                    </li>
+                    <li>
+                      <i className="bi bi-arrow-right-circle" />{" "}
+                      <span style={{color:'black'}}> Professionally grow cutting-edge paradigms </span>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </div>
+              {/* progress bar */}
+              <div className="progress-box">
+                <ProgressBar value={85} />
+                <div className="circle-progress-title">
+                  <h4>
+                    {" "}
+                    Clients <br /> Satisfactions{" "}
+                  </h4>
+                </div>
+                <div className="extra-progress">
+                  <ProgressBar value={95} />
+                  <div className="circle-progress-title">
+                    <h4>
+                      {" "}
+                      Finance <br /> Consulting{" "}
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div className="about-button">
+                <Link legacyBehavior href="/about">
+                  <a>
+                    {" "}
+                    <i className="bi bi-gear" /> More About{" "}
+                  </a>
+                </Link>
+              </div>
+            </div>  
                 
             {/* <div className="col-lg-6 col-md-12 pl-lg-50">
               <div className="consen-section-title mt-4 mt-lg-0">
@@ -642,11 +718,14 @@ const Index = () => {
       {/*==================================================*/}
       {/* End consen process Area */}
       {/*==================================================*/}
+<Testimo />
+ 
+ <Pprocess />
 
        {/*==================================================*/}
       {/* Start consen process Area */}
       {/*==================================================*/}
-      <div className="process-area style-two pt-5 pb-5" data-aos="fade-up">
+      {/* <div className="process-area style-two pt-5 pb-5" data-aos="fade-up">
         <div className="container">
           <div className="row align-items-center ">
             <div className="col-lg-5 col-md-6">
@@ -670,132 +749,31 @@ const Index = () => {
               </div>
             </div>
           </div>
-          {/* process shape */}
           <div className="process-shape">
             <div className="service-shape">
               <img src="assets/images/resource/all-shape3.png" alt />
             </div>
             <div className="process-shape-thumb bounce-animate2">
-              {/* <img src="assets/images/resource/all-shap.png" alt /> */}
+              <img src="assets/images/resource/all-shap.png" alt />
             </div>
           </div>
         </div>
-      </div>
-      {/* <div className="process-extra-area style-two">
-       <div className="container">
-  <div className="row justify-content-center process-bg">
-    <div className="col-lg-4 col-sm-6">
-      <div
-        className="process-single-box2 first" >
-        <div className="process-icon-thumb">
-          <img src="/assets/images/resource/a.png" alt=""/>
-        </div>
-        <div className="process-title">
-          <h3>Planning</h3>
-          <p>Set your course and your objective</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="col-lg-4 col-sm-6">
-      <div className="process-single-box2 responsive second">
-      
-        <div className="process-icon-thumb">
-          <img src="/assets/images/resource/b.png" alt="" />
-        </div>
-        <div className="process-title">
-          <h3>Scheduling</h3>
-          <p>Create a timetable & plan schedule accordingly</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="col-lg-4 col-sm-6">
-      <div
-        className="process-single-box2 upper third">
-        <div className="process-icon-thumb">
-          <img src="/assets/images/resource/c.png" alt=""  />
-        </div>
-        <div className="process-title">
-          <h3>Start Classes</h3>
-          <p>Pay and begin your courses...</p>
-        </div>
-      </div>
-    </div>
-
-    <div className="process-shape">
-      <div
-        className="process-shape-thumb3">
-        <img src="/assets/images/resource/all-shape2.png" alt=""/>
-      </div>
-    </div>
-  </div>
-</div>
-
       </div> */}
+      
 
-<div className="social-media-marketing-services" data-aos="fade-up">
+
+{/* <div className="social-media-marketing-services" data-aos="fade-up">
   <div className="container">
     <h2 className="text-center" style={{color:'#E63946'}}>Our Process</h2>
     <p className="text-center">A streamlined approach to social media marketing success</p>
-    {/* <div className="services-item-wrap">
-      <div className="row">
-      <div className="col-md-4 padding">
-        <div className="service-card" data-aos="fade-right">
-        <div className="timeline-badge danger background" data-aos="fade-in"></div>
-          <div className="timeline-panel" data-aos="fade-right">
-            <div className="timeline-info mt-20 ml-10">
-              <img
-                src="https://www.pixel-studios.com/static/assets/images/smo/icn-1.png"
-                className="img-responsive p-2"
-                alt="Understand Your Customers" width={60}
-              />
-              <h3>Understand Your Customers</h3>
-              <p>Discover needs, likes, and behaviour profiles of your customers</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-        <div className="col-md-4 padding">
-        <div className="service-card2" data-aos="fade-left">
-          <div className="timeline-badge theme-gradient info" data-aos="fade-in"></div>
-          <div className="timeline-panel clearfix" data-aos="fade-left">
-            <div className="timeline-info mt-40 ml-10">
-              <img
-                src="https://www.pixel-studios.com/static/assets/images/smo/icn-2.png"
-                className="img-responsive p-2"
-                alt="Choose Social Platforms" width={60}
-              />
-              <h3>Choose Social Platforms</h3>
-              <p>Consider the intention and how it aligns with our brand</p>
-              <br/>
-            </div>
-          </div>
-        </div>
-        </div>
-        <div className="col-md-4 padding">
-        <div className="service-card3" data-aos="fade-right">
-          <div className="timeline-badge theme-gradient danger" data-aos="fade-in"></div>
-            <div className="timeline-panel" data-aos="fade-right">
-              <div className="timeline-info mt-20 ml-10">
-                <img
-                  src="https://www.pixel-studios.com/static/assets/images/smo/icn-3.png"
-                  className="img-responsive p-2"
-                  alt="Create Appealing Profile" width={60}
-                />
-                <h3>Create Appealing Profile</h3>
-                <p>Blend-in or Stand-out? Mix design & copy intelligently</p>
-                <br/>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> */}
-<TimedContainers />
+ 
+    
  </div>
-</div>
+</div> */}
+
+
+
+
       {/*==================================================*/}
       {/* End consen process Area */}
       {/*==================================================*/}
@@ -1157,3 +1135,9 @@ const Index = () => {
   );
 };
 export default Index;
+
+
+
+
+
+

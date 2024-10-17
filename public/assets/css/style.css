@@ -56,7 +56,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 .mobile-menu {
   position: relative;
   background-color: #fff;
-  padding: 10px;
+  padding: 0px;
 }
 
 .menu-toggle {
@@ -65,6 +65,7 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
   align-items: center;
   justify-content: flex-end;
   font-size: 24px;
+  display: none;
 }
 
 .menu-bars span {
@@ -105,29 +106,23 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
   padding: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .search-bar {
   display: inline-block;
   margin-right: 15px;
+  border-radius: 50px 50px 50px 50px; /* Corrected border-radius */
+
 }
 
 .search-bar form {
   display: flex;
   align-items: center;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 9px solid #E63946; /* Border with color */
   padding: 0px;
   margin-top: 23px;
+  border-radius: 0 50px 50px 0;
+  z-index: 1;
+  transition: 0.5s;
+  border: 2px solid #e63946;
 }
 
 .search-bar input {
@@ -3736,7 +3731,7 @@ p.choose-text1 {
 ======================================================***/
 .process-area {
   background: url(../images/resource/work-process-bg.png);
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 100px 0 95px;
@@ -6433,7 +6428,7 @@ span.fill {
   bottom: 0;
   width: 80px;
   height: 80px;
-  background: url(../img/course11.png);
+  /* background: url(../img/course11.png); */
   transition: 0.5s;
   opacity: 0;
   z-index: -1;
@@ -6624,7 +6619,7 @@ background-position: right center; /* Aligns the image to the right */
   bottom: 0;
   width: 80px;
   height: 80px;
-  background: url(../img/course22.png);
+  /* background: url(../img/course22.png); */
   transition: 0.5s;
   opacity: 0;
   z-index: -1;
@@ -6653,7 +6648,8 @@ background-position: right center; /* Aligns the image to the right */
   margin: 11px 0 14px 0;
   font-size: 24px;
   font-weight: 600;
-}
+} 
+
 
 .feature-icon10 {
   font-size: 35px;
@@ -6677,6 +6673,13 @@ background-position: right center; /* Aligns the image to the right */
 
 .feature-text0 p {
   margin: 0 0 35px;
+  line-height: 25px;
+} 
+
+.feature-text11 p {  
+  margin-bottom: 20px; 
+  padding-top: 105px;
+  /* margin: 20 15 35px; */
   line-height: 25px;
 }
 
@@ -6815,7 +6818,6 @@ background-position: right center; /* Aligns the image to the right */
   bottom: 0;
   width: 80px;
   height: 80px;
-  background: url(../img/course33.png);
   transition: 0.5s;
   opacity: 0;
   z-index: -1;
@@ -9004,5 +9006,237 @@ p.text-center {
   text-align: justify;
   padding: 10px;
 
+}
+
+/* Container */
+.cta-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+  background-color: #f3f4f6; /* Gray background */
+  overflow: hidden;
+}
+
+/* Background Shape */
+.cta-background-shape {
+  position: absolute;
+  inset: 1;
+  background-color: #fef08a; /* Light yellow */
+  border-radius: 9999px;
+  width: 800px;
+  height: 300px;
+  transform: rotate(0deg);
+  opacity: 0.4;
+}
+
+/* Content */
+.cta-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+
+/* Title */
+.cta-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937; /* Gray color for the text */
+  margin-bottom: 1rem;
+}
+
+/* Description */
+.cta-description {
+  color: #6b7280; /* Gray-600 */
+  margin-bottom: 1.5rem;
+}
+
+/* Button */
+.cta-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #ef4444; /* Red */
+  color: white;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #dc2626; /* Darker red on hover */
+}
+/* components/Testimonial.module.css */
+
+.testimonialContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.testimonial {
+  position: relative;
+  z-index: 999;
+  opacity: 1;
+  width: 100%; /* Adjust as necessary */
+  background-color: #fff; /* Add background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reviewMobile {
+  text-align: center;
+}
+
+.fullReviewMobile {
+  margin-top: 1rem;
+}
+
+.testimonialImgAuthor {
+  margin: 2rem 0;
+}
+
+.card {
+  position: relative;
+}
+
+.videoPlayBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.customerName {
+  margin-top: 1rem;
+}
+
+.testimonialContent {
+  text-align: center;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.testimonialTitle {
+  font-weight: bold;
+}
+
+.testimonialSubTitle {
+  color: gray;
+  margin: 0.5rem 0;
+}
+/* Swiper container */
+.mySwiper {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+}
+
+/* Testimonial Slide Container */
+.testimonial-slide {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  text-align: center;
+  background-color: #01132D;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonial Image */
+.testimonial-image {
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 120px;
+  height: 120px;
+}
+
+/* Testimonial Content */
+.testimonial-content h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.testimonial-content h4 {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.testimonial-content p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Trustpilot Link */
+.testimonial-content a {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+}
+
+.testimonial-content a:hover {
+  color: #0056b3;
+}
+
+/* Navigation Buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #0056b3;
+}
+
+@media (min-width: 768px) {
+  .testimonial-slide {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .testimonial-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+
+  .testimonial-content {
+    flex: 1;
+  }
+
+  .testimonial-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-content h4 {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-content p {
+    font-size: 1rem;
+  }
 }
 
