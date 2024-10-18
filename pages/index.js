@@ -590,11 +590,11 @@ const Index = () => {
             </div>
             <div className="col-lg-6 col-md-12 pl-5" data-aos="fade-up">
               <div className="consen-section-title">
-                <h5> About Consen </h5>
-                <h2> We Are Global Stakeholder </h2>
+                <h5> Why Alfurqan </h5>
+                <h2>We have customized and flexible online study courses suitable for all family members. </h2>
                 <h2>
                   {" "}
-                  Over 2000+ <span> Companies </span>
+                  Over 2000+ <span> Student </span>
                 </h2>
                 <p className="about-text1">
                   {" "}
@@ -623,7 +623,7 @@ const Index = () => {
                 <div className="circle-progress-title">
                   <h4>
                     {" "}
-                    Clients <br /> Satisfactions{" "}
+                    Students <br /> Satisfactions{" "}
                   </h4>
                 </div>
                 <div className="extra-progress">
@@ -631,7 +631,7 @@ const Index = () => {
                   <div className="circle-progress-title">
                     <h4>
                       {" "}
-                      Finance <br /> Consulting{" "}
+                      Teachers <br /> Satisfaction{" "}
                     </h4>
                   </div>
                 </div>
@@ -720,8 +720,7 @@ const Index = () => {
       {/*==================================================*/}
 <Testimo />
  
- <Pprocess />
-
+ 
        {/*==================================================*/}
       {/* Start consen process Area */}
       {/*==================================================*/}
@@ -758,7 +757,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div> 
       
 
 
@@ -771,7 +770,15 @@ const Index = () => {
  </div>
 </div> */}
 
-
+<div className="social-media-marketing-services" data-aos="fade-up">
+  <div className="container">
+    <h2 className="text-center" style={{color:'#E63946'}}>Our Process</h2>
+    <p className="text-center">A streamlined approach to social media marketing success</p>
+  
+    <Pprocess />
+    
+ </div>
+</div>
 
 
       {/*==================================================*/}

@@ -1,147 +1,130 @@
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';  // Ensure you have this imported if you are using Next.js
+import { color } from 'framer-motion';
 
-const DefaultFooter = () => {
+const Footer = () => {
   return (
-    <div className="footer-middle style-two">
-  <div className="container">
-  <div className="footer-bg">
-    <div className="row">
-      {/* Quick Links - 1st column */}
-      <div className="col-md-2 mb-4 mb-md-0">
-        <div className="widget widgets-company-info">
-          <div className="widget widget-nav-menu">
-            <h4 className="widget-title">QUICK LINKS</h4>
-            <div className="menu-quick-link-content">
-              <ul className="footer-menu">
-                <li><Link legacyBehavior href="/">Home</Link></li>
-                <li><Link legacyBehavior href="/about">About Us</Link></li>
-                <li><Link legacyBehavior href="/contact">Contact Us</Link></li>
-                <li><Link legacyBehavior href="/pricing">Pricing</Link></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Courses - 2nd column */}
-      <div className="col-md-2 mb-4 mb-md-0">
-        <div className="widget widget-nav-menu">
-          <h4 className="widget-title">COURSES</h4>
-          <div className="menu-quick-link-content">
-            <ul className="footer-menu">
-              <li><a href="/tajweed">Tajweed</a></li>
-              <li><a href="/quran">Quran</a></li>
-              <li><a href="/arabic">Arabic</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      {/* Social Media and Logo - 3rd column */}
-      <div className="col-md-4 d-flex flex-column   mb-4 mb-md-0">
-       <div className="container" style={{position: "relative", textAlign: 'center',color: 'white'}}>
-       <div className="d-flex justify-content-center">
-  <img src="assets/img/pattern-4.png" alt="" height={370}  />
-</div>
-
-      <div className="">
-
-       <div className="centered " style={{position: 'absolute',top: '5%', padding:'20px'}}>
-        <img src="assets/images/logo.png"  alt="logo" height={55}  style={{display: 'block',marginLeft:'30px'}}/>
-          <br/>
-        <p style={{color:'white',marginLeft:'-17px'}}>  Start by breaking down complex topics into smaller, manageable parts to understand them better.Start by breaking down complex topics into smaller, manageable parts to understand them better.
-        </p>
-      
-          <div className="follow-company-icon pt-10" >
-            <a className="social-icon-color" href="#"><i className="bi bi-facebook"></i></a>
-            <a className="social-icon-color2" href="#"><i className="bi bi-instagram"></i></a>
-            <a className="social-icon-color1" href="#"><i className="bi bi-twitter"></i></a>
-            {/* <a className="social-icon-color3" href="#"><i className="bi bi-youtube"></i></a>
-            <a className="social-icon-color4" href="#"><i className="bi bi-whatsapp"></i></a> */}
-
-            
-
-          </div>
-       </div>
-       </div>
-       </div>
-      </div>
-
-      {/* Address - 4th column */}
-      <div className="col-md-4 p-5">
-        <div className="widget" >
-          <h4 className="widget-title">Address</h4>
-          <p style={{color:'white'}}>UK +44 20 4577 1227</p>
-<p style={{color:'white'}}>USA +1 85 5442 3380</p>
-          <p style={{color:'white'}}>123 Street Name, City, Country</p>
+    <footer style={styles.footer}>
+      <div style={styles.footerContainer}>
+        <div style={styles.footerSection}>
+          <h3 style={styles.sectionHeading}>EXPLORE</h3>
+          <ul style={styles.list}>
+            <li>About</li>
+            <li>Blog</li>
+            <li> Teachers</li>
+            <li>Career</li>
+            <li>Testimonials</li>
+            <li>ContactUs</li>
+            <li>FAQs</li>
          
-
-
-<p style={{color:'white'}}>Email: contact@alfurqan.academy</p>
-        </div>
-        <br/>
-        <div className="subscribe_form">
-                        <input
-                          type="email"
-                          name="email"
-                          id="email"
-                          className="form-control"
-                          required=""
-                          data-error="Please enter your email"
-                          placeholder="Enter E-Mail"
-                        />
-                        <button type="submit" className="btn">
-                          {" "}
-                          <i className="bi bi-send-check" />
-                        </button>
-                      </div>  
-      </div>
-    </div>
-
-    {/* Footer Shapes */}
-    <div className="footer-shape">
-      <div className="footer-thumb">
-        <img src="assets/images/resource/red-dot.png" alt="" />
-      </div>
-      <div className="footer-thumb1 bounce-animate2">
-        <img src="assets/images/resource/all-shape.png" alt="" />
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-      <div className="footer-bottom-area d-flex align-items-center">
-      <div className="container">
-      <div className="row d-flex align-items-center justify-content-between">
-      <div className="col-md-4">
-        <div className="consen-logo">
-           <p style={{color:"white"}}>   © 2024 <span><img src="assets/images/logo.png" alt="logo" height={35} /></span> all rights reserved.
-           </p>
-        </div>
-      </div>
-      <div className="col-md-4 d-flex justify-content-end">
-       
-      </div>
-      <div className="col-md-4 d-flex justify-content-end">
-        <div className="footer-bottom-content">
-        <div className="footer-bottom-content-copy">
-          <a href="https://www.blackstoneinfomatics.com/" target="_blank" rel="noopener noreferrer"><span style={{fontSize:"18px"}}>Masterfully crafted by</span> &nbsp;
-          <img src="assets/img/logo.png" alt="Blackstone Infomatics" width="130" height="25" />
-          </a>
+          </ul>
         </div>
 
+        <div style={styles.footerSection}>
+          <h3 style={styles.sectionHeading}>COURSES</h3>
+          <ul style={styles.list}>
+            <li>Tajweed Course</li>
+            <li>Online Quran</li>
+            <li>Memorization</li>
+            <li>Arabic</li>
+          </ul>
+        </div>
+
+        <div style={styles.footerLogo}>
+          <Link legacyBehavior href="/">
+            <a className="logo_img" title="AlFurqan Academy">
+              <img src="assets/img/logo-white.png" alt="logo" style={styles.logoImage} />
+            </a>
+          </Link>
+        </div>
+
+        <div style={styles.footerSection}>
+          <h3 style={styles.sectionHeading}>CONTACT US</h3>
+          <p style={styles.sectionHeadingss}>Help Center</p>
+          <p  style={styles.sectionHeadingss}>UK +44 20 4577 1227</p>
+          <p  style={styles.sectionHeadingss}>USA +1 85 5442 3380</p>
+          <p  style={styles.sectionHeadingss}>Email: contact@alfurqan.academy</p>
+        </div>
+
+        <div style={styles.footerSection}>
+          <h3 style={styles.sectionHeading}>FOLLOW US</h3>
+          <div style={styles.socialIcons}>
+            <i className="fab fa-facebook"></i>
+            <i className="fab fa-instagram"></i>
+            <i className="fab fa-twitter"></i>
+            <i className="fab fa-linkedin"></i>
+            <i className="fab fa-youtube"></i>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
-    
-    </div>
+      <div style={styles.footerBottom}>
+        <div >
+          <p style={styles.whiteBorder}>© AlFurqanAcademy Network Inc. | Privacy Policy | Terms of Service</p>
+        </div>
+      </div>
+    </footer>
   );
 };
-export default DefaultFooter;
+
+const styles = {
+  footer: {
+    backgroundColor: '#000',
+    color: '#fff',
+    padding: '50px 0',
+  },
+  footerContainer: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    maxWidth: '1200px',
+    margin: '0 auto',
+    padding: '0 20px',
+  },
+  sectionHeadingss:{
+   color: 'white',
+  },
+  footerSection: {
+    flex: 1,
+    margin: '0 20px',
+    color:'white'
+  },
+  footerLogo: {
+    flex: 2,
+    display: 'flex',
+    justifyContent: 'center', // This centers the logo horizontally
+    alignItems: 'center',
+  },
+  logoImage: {
+    maxWidth: '150px', // You can adjust the size of the logo here
+  },
+  sectionHeading: {
+    fontSize: '18px',
+    fontWeight: '700',
+    marginBottom: '20px',
+    textTransform: 'uppercase',
+    color:'#e63946'
+  },
+  list: {
+    listStyleType: 'none',
+    padding: 0,
+  },
+  socialIcons: {
+    fontSize: '24px',
+    display: 'flex',
+    gap: '15px',
+  },
+  footerBottom: {
+    textAlign: 'center',
+    marginTop: '50px',
+    padding: '20px 0',
+    color: '#ccc',
+    position: 'relative',
+  },
+  whiteBorder: {
+    borderTop: '2px solid white',
+    paddingTop: '10px',  // Padding to separate the text from the top border
+    color: '#fff',
+  },
+};
+
+export default Footer;

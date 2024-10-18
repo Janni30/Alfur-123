@@ -1,37 +1,48 @@
-// pages/index.js
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
+import styles from './Pprocess.module.css'; // Import the CSS module
 
 const Pprocess = () => {
+  useEffect(() => {
+    AOS.init(); // Initialize AOS animations
+  }, []);
+
   return (
-    <div style={styles.container}>
-      <div style={styles.infographic}>
-        <div style={styles.leftCircle} data-aos="fade-left">
-          <h2 style={styles.title}>Business Infographics</h2>
+    <div className={styles.container}>
+       <div className={styles.infographic}>
+        <div className={styles.leftCircle} data-aos="fade-left">
+          <h2 className={styles.title}>Business Infographics</h2> 
+          <button className={styles.button}>Learn More</button> {/* Add button here */}
         </div>
-        <div style={styles.rightBoxes}>
-          <div style={styles.box} data-aos="fade-down">
-            <div style={styles.icon}><span>🔍</span></div>
+        <div className={styles.rightBoxes}>
+          <div className={styles.box} data-aos="fade-down">
+            <div className={styles.icon}><span role="img" aria-label="search">🔍</span></div>
             <div>
-              <h3 style={styles.heading}>Lorem Ipsum</h3>
-              <p style={styles.paragraph}>
+              <h3 className={styles.heading}>Lorem Ipsum</h3>
+              <p className={styles.paragraph}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
           </div>
-          <div style={styles.box} data-aos="fade-right">
-            <div style={styles.icon}><span>💡</span></div>
+          <br/>
+          <br/>
+          <div className={styles.box} data-aos="fade-right">
+            <div className={styles.icon}><span role="img" aria-label="idea">💡</span></div>
             <div>
-              <h3 style={styles.heading}>Lorem Ipsum</h3>
-              <p style={styles.paragraph}>
+              <h3 className={styles.heading}>Lorem Ipsum</h3>
+              <p className={styles.paragraph}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
           </div>
-          <div style={styles.box} data-aos="fade-up">
-            <div style={styles.icon}><span>🎯</span></div>
+          <br/>
+          <br/> 
+          <div className={styles.box} data-aos="fade-up">
+            <div className={styles.icon}><span role="img" aria-label="target">🎯</span></div>
             <div>
-              <h3 style={styles.heading}>Lorem Ipsum</h3>
-              <p style={styles.paragraph}>
+              <h3 className={styles.heading}>Lorem Ipsum</h3>
+              <p className={styles.paragraph}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
@@ -42,61 +53,6 @@ const Pprocess = () => {
   );
 };
 
-const styles = {
-  container: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '100vh',
-    backgroundColor: '#f8f8f8',
-  },
-  infographic: {
-    display: 'flex',
-    alignItems: 'center',
-  },
-  leftCircle: {
-    width: '250px',
-    height: '250px',
-    borderRadius: '50%',
-    backgroundColor: '#ffffff',
-    boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  title: {
-    textAlign: 'center',
-    fontSize: '20px',
-    fontWeight: 'bold',
-  },
-  rightBoxes: {
-    display: 'flex',
-    flexDirection: 'column',
-    marginLeft: '20px',
-  },
-  box: {
-    backgroundColor: '#ffffff',
-    padding: '15px',
-    marginBottom: '10px',
-    borderRadius: '10px',
-    boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',
-    display: 'flex',
-    alignItems: 'center',
-    minWidth: '300px',
-  },
-  icon: {
-    fontSize: '24px',
-    marginRight: '15px',
-  },
-  heading: {
-    fontSize: '18px',
-    fontWeight: '600',
-    marginBottom: '5px',
-  },
-  paragraph: {
-    fontSize: '14px',
-    color: '#555',
-  },
-};
-
 export default Pprocess;
+  
+

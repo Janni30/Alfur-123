@@ -14,6 +14,8 @@ const Testimo = () => {
           justify-content: center;
           align-items: center;
           padding: 20px;
+          height:620px;
+          border-radius:150px 0px 100px 0px
         }
 
         .testimonial-content-container {
@@ -23,16 +25,18 @@ const Testimo = () => {
           max-width: 1200px;
           width: 100%;
           flex-direction: row;
+          
         }
 
         .testimonial-image {
-          width: 500px; /* Fixed width */
-          height: 500px; /* Fixed height */
+          margin:10px;
+          width: 670px; /* Fixed width */
+          height: 630px; /* Fixed height */
           display: flex;
           justify-content: center;
           align-items: center; /* Center the image */
           overflow: hidden; /* Ensures any overflow is hidden */
-          border-radius: 10px; /* Optional: rounded corners */
+          border-radius: 5px; /* Optional: rounded corners */
         }
 
         .testimonial-image img {

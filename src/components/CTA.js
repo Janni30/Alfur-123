@@ -8,15 +8,16 @@ class CTA extends Component {
           <div className="row align-items-center">
             {/* YouTube Video Section */}
             <div className="col-lg-6 col-md-12">
-              <div className="video-container">
+              <div className="video-container" style={{margin:'20px'}}>
                 <iframe
-                  width="100%"
-                  height="450"
+                  width="95%"
+                  height="400"
                   src="https://www.youtube.com/@AlFurqanAcademyDelhi"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen>
+                  allowFullScreen 
+                  style={{ borderTopLeftRadius: '70px', borderBottomRightRadius: '50px',borderBottomLeftRadius:'10px',borderTopRightRadius:'10px' }}>
                 </iframe>
               </div>
             </div>

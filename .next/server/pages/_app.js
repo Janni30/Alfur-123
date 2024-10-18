@@ -4,7 +4,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 3859:
+/***/ 7116:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -138,9 +138,9 @@ const ConsenHead = ()=>{
 var globals = __webpack_require__(6764);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(6689);
-;// CONCATENATED MODULE: external "aos"
-const external_aos_namespaceObject = require("aos");
-var external_aos_default = /*#__PURE__*/__webpack_require__.n(external_aos_namespaceObject);
+// EXTERNAL MODULE: external "aos"
+var external_aos_ = __webpack_require__(9783);
+var external_aos_default = /*#__PURE__*/__webpack_require__.n(external_aos_);
 // EXTERNAL MODULE: ./node_modules/aos/dist/aos.css
 var aos = __webpack_require__(1759);
 ;// CONCATENATED MODULE: ./pages/_app.js
@@ -194,6 +194,14 @@ const App = ({ Component , pageProps  })=>{
 
 /***/ }),
 
+/***/ 9783:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("aos");
+
+/***/ }),
+
 /***/ 6689:
 /***/ ((module) => {
 
@@ -217,7 +225,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(3859));
+var __webpack_exports__ = (__webpack_exec__(7116));
 module.exports = __webpack_exports__;
 
 })();

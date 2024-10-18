@@ -8662,6 +8662,8 @@ ul.social-box li a:hover {
 .social-media-marketing-services {
   padding: 60px 0;
   background: #f9f9f9;
+  background-image: url('../images/about/ceo-bg.png');
+    background-repeat: no-repeat;
 }
 
 /* .container {
@@ -9147,7 +9149,7 @@ p.text-center {
   height: 500px;
   align-items: center;
   text-align: center;
-  background-color: #01132D;
+  background-color: #0A0A1D;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
