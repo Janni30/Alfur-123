@@ -17,7 +17,9 @@ const Testimo = () => {
           height:620px;
           border-radius:150px 0px 100px 0px
         }
-
+          .h3,h4,p{
+          color:white;
+          }
         .testimonial-content-container {
           display: flex;
           align-items: center;
@@ -99,8 +101,8 @@ const Testimo = () => {
                 <img src="assets/img/abc1.jpg" alt="Ayra Khan" />
               </div>
               <div className="testimonial-content">
-                <h3>Ayra Khan</h3>
-                <h4>I love teacher Sarah so much</h4>
+                <h3 style={{color:'white'}}>Ayra Khan</h3>
+                <h4 style={{color:'white'}}>I love teacher Sarah so much</h4>
                 <p>Teacher Sarah makes Quran memorization so fun.</p>
               </div>
             </div>
@@ -114,8 +116,8 @@ const Testimo = () => {
                 <img src="assets/img/abc2.jpg" alt="Ayra Khan" />
               </div>
               <div className="testimonial-content">
-                <h3>Ayra Khan</h3>
-                <h4>I love teacher Sarah so much</h4>
+                <h3  style={{color:'white'}}>Ayra Khan</h3>
+                <h4  style={{color:'white'}}>I love teacher Sarah so much</h4>
                 <p>Teacher Sarah makes Quran memorization so fun.</p>
               </div>
             </div>
@@ -129,8 +131,8 @@ const Testimo = () => {
                 <img src="assets/img/abc3.jpg" alt="Ayra Khan" />
               </div>
               <div className="testimonial-content">
-                <h3>Ayra Khan</h3>
-                <h4>I love teacher Sarah so much</h4>
+                <h3  style={{color:'white'}}>Ayra Khan</h3>
+                <h4  style={{color:'white'}}>I love teacher Sarah so much</h4>
                 <p>Teacher Sarah makes Quran memorization so fun.</p>
               </div>
             </div>
@@ -144,8 +146,8 @@ const Testimo = () => {
                 <img src="assets/img/abc4.jpg" alt="Ayra Khan" />
               </div>
               <div className="testimonial-content">
-                <h3>Ayra Khan</h3>
-                <h4>I love teacher Sarah so much</h4>
+                <h3  style={{color:'white'}}>Ayra Khan</h3>
+                <h4  style={{color:'white'}}>I love teacher Sarah so much</h4>
                 <p>Teacher Sarah makes Quran memorization so fun.</p>
               </div>
             </div>
@@ -159,8 +161,8 @@ const Testimo = () => {
                 <img src="assets/img/abc5.jpg" alt="Ayra Khan" />
               </div>
               <div className="testimonial-content">
-                <h3>Ayra Khan</h3>
-                <h4>I love teacher Sarah so much</h4>
+                <h3  style={{color:'white'}}>Ayra Khan</h3>
+                <h4  style={{color:'white'}}>I love teacher Sarah so much</h4>
                 <p>Teacher Sarah makes Quran memorization so fun.</p>
               </div>
             </div>

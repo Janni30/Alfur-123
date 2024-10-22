@@ -94,7 +94,7 @@ const BlogSidebar = () => {
           </div>
         </div>
       </div>
-      <div className="widget-items mb-40">
+      {/* <div className="widget-items mb-40">
         <div className="widget-title">
           <h2>Tag Cloud</h2>
         </div>
@@ -106,8 +106,8 @@ const BlogSidebar = () => {
           <a href="#">Responsive</a>
           <a href="#">Technology</a>
         </div>
-      </div>
-      <div className="widget-items mb-40">
+      </div> */}
+      {/* <div className="widget-items mb-40">
         <div className="calender-area">
           <div className="widget-title">
             <h2>Calender</h2>
@@ -132,8 +132,8 @@ const BlogSidebar = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="widget-items widget-archieve mb-40">
+      </div> */}
+      {/* <div className="widget-items widget-archieve mb-40">
         <div className="widget-title">
           <h2>Archives</h2>
         </div>
@@ -162,7 +162,7 @@ const BlogSidebar = () => {
             May 2023
           </a>{" "}
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

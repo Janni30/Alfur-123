@@ -1,130 +1,118 @@
-import React from 'react';
-import Link from 'next/link';  // Ensure you have this imported if you are using Next.js
-import { color } from 'framer-motion';
+import React, { useState } from 'react';
+import Link from 'next/link';
+import styles from './Footer.module.css';  // Import the CSS module
 
 const Footer = () => {
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
+
+  const toggleLoginPopup = () => {
+    setIsLoginOpen(!isLoginOpen);
+  };
+
   return (
-    <footer style={styles.footer}>
-      <div style={styles.footerContainer}>
-        <div style={styles.footerSection}>
-          <h3 style={styles.sectionHeading}>EXPLORE</h3>
-          <ul style={styles.list}>
-            <li>About</li>
-            <li>Blog</li>
-            <li> Teachers</li>
-            <li>Career</li>
-            <li>Testimonials</li>
-            <li>ContactUs</li>
-            <li>FAQs</li>
-         
+    <footer className={styles.footer}>
+      <div className={styles.footerContainer}>
+        {/* Explore Section */}
+        <div className={styles.footerSection}>
+          <h3 className={styles.sectionHeading}>EXPLORE</h3>
+          <ul className={styles.list}>
+            {["About", "Blog", "Teachers", "Career", "Testimonials", "Contact Us", "FAQs"].map(item => (
+              <li key={item} className={styles.listItem}>{item}</li>
+            ))}
           </ul>
         </div>
 
-        <div style={styles.footerSection}>
-          <h3 style={styles.sectionHeading}>COURSES</h3>
-          <ul style={styles.list}>
-            <li>Tajweed Course</li>
-            <li>Online Quran</li>
-            <li>Memorization</li>
-            <li>Arabic</li>
+        {/* Courses Section */}
+        <div className={styles.footerSection}>
+          <h3 className={styles.sectionHeading}>COURSES</h3>
+          <ul className={styles.list}>
+            {["Tajweed Course", "Online Quran", "Memorization", "Arabic"].map(course => (
+              <li key={course} className={styles.listItem}>{course}</li>
+            ))}
           </ul>
         </div>
 
-        <div style={styles.footerLogo}>
-          <Link legacyBehavior href="/">
-            <a className="logo_img" title="AlFurqan Academy">
-              <img src="assets/img/logo-white.png" alt="logo" style={styles.logoImage} />
-            </a>
-          </Link>
+        {/* Logo Section */}
+
+        <Link href="/" legacyBehavior>
+         <a title="AlFurqan Academy">
+          <img src="assets/img/logo-white.png" alt="logo" className={styles.logoImage} />
+         </a>
+        </Link>
+
+
+        {/* Contact Section */}
+        <div className={styles.footerSection}>
+          <h3 className={styles.sectionHeading}>CONTACT US</h3>
+          <p className='text-white' style={{ marginBottom: '10px' }}>
+            Help Center:
+          </p>
+          <p className='text-white' style={{ marginBottom: '10px' }}>
+            UK +44 20 4577 1227
+          </p>
+          <p className='text-white' style={{ marginBottom: '10px' }}>
+            USA +1 85 5442 3380
+          </p>
+          <p className='text-white' style={{ marginBottom: '10px' }}>
+            Email:
+          </p>
+          <p className='text-white' style={{ marginBottom: '10px' }}>
+            contact@alfurqan.academy
+          </p>
         </div>
 
-        <div style={styles.footerSection}>
-          <h3 style={styles.sectionHeading}>CONTACT US</h3>
-          <p style={styles.sectionHeadingss}>Help Center</p>
-          <p  style={styles.sectionHeadingss}>UK +44 20 4577 1227</p>
-          <p  style={styles.sectionHeadingss}>USA +1 85 5442 3380</p>
-          <p  style={styles.sectionHeadingss}>Email: contact@alfurqan.academy</p>
-        </div>
-
-        <div style={styles.footerSection}>
-          <h3 style={styles.sectionHeading}>FOLLOW US</h3>
-          <div style={styles.socialIcons}>
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-linkedin"></i>
-            <i className="fab fa-youtube"></i>
+        {/* Follow Us Section */}
+        <div className={styles.footerSection}>
+          <h3 className={styles.sectionHeading}>FOLLOW US</h3>
+          <div className={styles.socialIcons}>
+            {["facebook", "instagram", "twitter", "linkedin", "youtube"].map(platform => (
+              <i key={platform} className={`fab fa-${platform} ${styles.socialIcon}`}></i>
+            ))}
           </div>
         </div>
       </div>
 
-      <div style={styles.footerBottom}>
-        <div >
-          <p style={styles.whiteBorder}>© AlFurqanAcademy Network Inc. | Privacy Policy | Terms of Service</p>
+      {/* Button for Login Popup */}
+      <div className={styles.buttonWrapper}>
+        <button
+          className={`btn btn-primary ${styles.loginButton}`}
+          onClick={toggleLoginPopup}
+        >
+          Open Login
+        </button>
+      </div>
+
+      {/* Login Popup Modal */}
+      {isLoginOpen && (
+        <div className={styles.loginPopup}>
+          <div className={styles.loginPopupContent}>
+            <h3>Login</h3>
+            <form>
+              <div className="form-group">
+                <label>Email:</label>
+                <input type="email" className="form-control" required />
+              </div>
+              <div className="form-group">
+                <label>Password:</label>
+                <input type="password" className="form-control" required />
+              </div>
+              <div className="form-actions">
+                <button type="submit" className="btn btn-success">Login</button>
+                <button type="button" className="btn btn-danger" onClick={toggleLoginPopup}>
+                  Cancel
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
+      )}
+
+      {/* Footer Bottom Section */}
+      <div className={styles.footerBottom}>
+        <p className={styles.whiteBorder}>© AlFurqanAcademy Network Inc. | Privacy Policy | Terms of Service</p>
       </div>
     </footer>
   );
-};
-
-const styles = {
-  footer: {
-    backgroundColor: '#000',
-    color: '#fff',
-    padding: '50px 0',
-  },
-  footerContainer: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    maxWidth: '1200px',
-    margin: '0 auto',
-    padding: '0 20px',
-  },
-  sectionHeadingss:{
-   color: 'white',
-  },
-  footerSection: {
-    flex: 1,
-    margin: '0 20px',
-    color:'white'
-  },
-  footerLogo: {
-    flex: 2,
-    display: 'flex',
-    justifyContent: 'center', // This centers the logo horizontally
-    alignItems: 'center',
-  },
-  logoImage: {
-    maxWidth: '150px', // You can adjust the size of the logo here
-  },
-  sectionHeading: {
-    fontSize: '18px',
-    fontWeight: '700',
-    marginBottom: '20px',
-    textTransform: 'uppercase',
-    color:'#e63946'
-  },
-  list: {
-    listStyleType: 'none',
-    padding: 0,
-  },
-  socialIcons: {
-    fontSize: '24px',
-    display: 'flex',
-    gap: '15px',
-  },
-  footerBottom: {
-    textAlign: 'center',
-    marginTop: '50px',
-    padding: '20px 0',
-    color: '#ccc',
-    position: 'relative',
-  },
-  whiteBorder: {
-    borderTop: '2px solid white',
-    paddingTop: '10px',  // Padding to separate the text from the top border
-    color: '#fff',
-  },
 };
 
 export default Footer;

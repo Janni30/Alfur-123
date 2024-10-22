@@ -26,7 +26,7 @@ export const DaskTopMenusMenus = () => {
 
       {/* Courses Menu */}
       <li>
-        <a href="#">
+        <a href="/course">
           Courses
         </a>
       </li>
@@ -55,12 +55,12 @@ export const DaskTopMenusMenus = () => {
         {isDropdownOpen && (
           <ul className="dropdown-menu">
             <li><a href="about">About us</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="/blog-2column">Blog</a></li>
             <li><a href="#">Teachers</a></li>
             <li><a href="#">Testimonials</a></li>
             <li><a href="#">Career</a></li>
             <li><a href="#">FAQ</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>
           </ul>
         )}
       </li>

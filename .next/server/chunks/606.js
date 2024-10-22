@@ -1,11 +1,37 @@
-"use strict";
 exports.id = 606;
 exports.ids = [606];
 exports.modules = {
 
+/***/ 4224:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"footer": "Footer_footer__8gXeZ",
+	"footerContainer": "Footer_footerContainer__QKoYs",
+	"footerSection": "Footer_footerSection__dZUJg",
+	"footerLogo": "Footer_footerLogo__2lnie",
+	"logoImage": "Footer_logoImage__Yo4kf",
+	"sectionHeading": "Footer_sectionHeading__Srben",
+	"list": "Footer_list__FMq5D",
+	"listItem": "Footer_listItem__i0RL_",
+	"socialIcons": "Footer_socialIcons__aaGQz",
+	"socialIcon": "Footer_socialIcon__qAj4r",
+	"footerBottom": "Footer_footerBottom__BOBZF",
+	"whiteBorder": "Footer_whiteBorder__7KyNQ",
+	"buttonWrapper": "Footer_buttonWrapper__hu_kD",
+	"loginButton": "Footer_loginButton__i9Z0G",
+	"loginPopup": "Footer_loginPopup__muDL7",
+	"loginPopupContent": "Footer_loginPopupContent__QO6GM"
+};
+
+
+/***/ }),
+
 /***/ 8083:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
@@ -91,6 +117,7 @@ const ImageView = ()=>{
 /***/ 7172:
 /***/ ((module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
@@ -121,6 +148,7 @@ __webpack_async_result__();
 /***/ 9961:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
@@ -219,6 +247,7 @@ const VideoPopup = ()=>{
 /***/ 6606:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -230,13 +259,13 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __we
 /* harmony import */ var _components_ImageView__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8083);
 /* harmony import */ var _components_VideoPopup__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(9961);
 /* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(8603);
-/* harmony import */ var _footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(966);
+/* harmony import */ var _footer_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9357);
 /* harmony import */ var _header_Header__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4563);
 /* harmony import */ var _header_MobileMenu__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(507);
 /* harmony import */ var _ScrollTop__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(1411);
 /* harmony import */ var _components_SmoothScrolling__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(7172);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_footer_Footer__WEBPACK_IMPORTED_MODULE_4__, _components_SmoothScrolling__WEBPACK_IMPORTED_MODULE_8__]);
-([_footer_Footer__WEBPACK_IMPORTED_MODULE_4__, _components_SmoothScrolling__WEBPACK_IMPORTED_MODULE_8__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_SmoothScrolling__WEBPACK_IMPORTED_MODULE_8__]);
+_components_SmoothScrolling__WEBPACK_IMPORTED_MODULE_8__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
 
 
 
@@ -278,6 +307,7 @@ __webpack_async_result__();
 /***/ 1411:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
@@ -326,282 +356,244 @@ const ScrollTop = ()=>{
 
 /***/ }),
 
-/***/ 965:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ 9357:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6197);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_3__]);
-framer_motion__WEBPACK_IMPORTED_MODULE_3__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "Z": () => (/* binding */ footer_Footer)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(6689);
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(1664);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+// EXTERNAL MODULE: ./src/layout/footer/Footer.module.css
+var Footer_module = __webpack_require__(4224);
+var Footer_module_default = /*#__PURE__*/__webpack_require__.n(Footer_module);
+;// CONCATENATED MODULE: ./src/layout/footer/DefaultFooter.js
 
 
- // Ensure you have this imported if you are using Next.js
 
+ // Import the CSS module
 const Footer = ()=>{
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("footer", {
-        style: styles.footer,
+    const [isLoginOpen, setIsLoginOpen] = (0,external_react_.useState)(false);
+    const toggleLoginPopup = ()=>{
+        setIsLoginOpen(!isLoginOpen);
+    };
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("footer", {
+        className: (Footer_module_default()).footer,
         children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                style: styles.footerContainer,
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: (Footer_module_default()).footerContainer,
                 children: [
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        style: styles.footerSection,
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Footer_module_default()).footerSection,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                style: styles.sectionHeading,
+                            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                className: (Footer_module_default()).sectionHeading,
                                 children: "EXPLORE"
                             }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                                style: styles.list,
+                            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+                                className: (Footer_module_default()).list,
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: "About"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: "Blog"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: " Teachers"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: "Career"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: "Testimonials"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: "ContactUs"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: "FAQs"
-                                    })
-                                ]
+                                    "About",
+                                    "Blog",
+                                    "Teachers",
+                                    "Career",
+                                    "Testimonials",
+                                    "Contact Us",
+                                    "FAQs"
+                                ].map((item)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                        className: (Footer_module_default()).listItem,
+                                        children: item
+                                    }, item))
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        style: styles.footerSection,
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Footer_module_default()).footerSection,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                style: styles.sectionHeading,
+                            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                className: (Footer_module_default()).sectionHeading,
                                 children: "COURSES"
                             }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                                style: styles.list,
+                            /*#__PURE__*/ jsx_runtime_.jsx("ul", {
+                                className: (Footer_module_default()).list,
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: "Tajweed Course"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: "Online Quran"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: "Memorization"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        children: "Arabic"
-                                    })
-                                ]
+                                    "Tajweed Course",
+                                    "Online Quran",
+                                    "Memorization",
+                                    "Arabic"
+                                ].map((course)=>/*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                        className: (Footer_module_default()).listItem,
+                                        children: course
+                                    }, course))
                             })
                         ]
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                        style: styles.footerLogo,
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
-                            legacyBehavior: true,
-                            href: "/",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                className: "logo_img",
-                                title: "AlFurqan Academy",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                    src: "assets/img/logo-white.png",
-                                    alt: "logo",
-                                    style: styles.logoImage
-                                })
+                    /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                        href: "/",
+                        legacyBehavior: true,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                            title: "AlFurqan Academy",
+                            children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                src: "assets/img/logo-white.png",
+                                alt: "logo",
+                                className: (Footer_module_default()).logoImage
                             })
                         })
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        style: styles.footerSection,
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Footer_module_default()).footerSection,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                style: styles.sectionHeading,
+                            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                className: (Footer_module_default()).sectionHeading,
                                 children: "CONTACT US"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                style: styles.sectionHeadingss,
-                                children: "Help Center"
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-white",
+                                style: {
+                                    marginBottom: "10px"
+                                },
+                                children: "Help Center:"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                style: styles.sectionHeadingss,
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-white",
+                                style: {
+                                    marginBottom: "10px"
+                                },
                                 children: "UK +44 20 4577 1227"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                style: styles.sectionHeadingss,
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-white",
+                                style: {
+                                    marginBottom: "10px"
+                                },
                                 children: "USA +1 85 5442 3380"
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                style: styles.sectionHeadingss,
-                                children: "Email: contact@alfurqan.academy"
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-white",
+                                style: {
+                                    marginBottom: "10px"
+                                },
+                                children: "Email:"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "text-white",
+                                style: {
+                                    marginBottom: "10px"
+                                },
+                                children: "contact@alfurqan.academy"
                             })
                         ]
                     }),
-                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                        style: styles.footerSection,
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Footer_module_default()).footerSection,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                style: styles.sectionHeading,
+                            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                                className: (Footer_module_default()).sectionHeading,
                                 children: "FOLLOW US"
                             }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                style: styles.socialIcons,
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (Footer_module_default()).socialIcons,
                                 children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                        className: "fab fa-facebook"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                        className: "fab fa-instagram"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                        className: "fab fa-twitter"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                        className: "fab fa-linkedin"
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                        className: "fab fa-youtube"
-                                    })
-                                ]
+                                    "facebook",
+                                    "instagram",
+                                    "twitter",
+                                    "linkedin",
+                                    "youtube"
+                                ].map((platform)=>/*#__PURE__*/ jsx_runtime_.jsx("i", {
+                                        className: `fab fa-${platform} ${(Footer_module_default()).socialIcon}`
+                                    }, platform))
                             })
                         ]
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                style: styles.footerBottom,
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                        style: styles.whiteBorder,
-                        children: "\xa9 AlFurqanAcademy Network Inc. | Privacy Policy | Terms of Service"
-                    })
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (Footer_module_default()).buttonWrapper,
+                children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                    className: `btn btn-primary ${(Footer_module_default()).loginButton}`,
+                    onClick: toggleLoginPopup,
+                    children: "Open Login"
+                })
+            }),
+            isLoginOpen && /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (Footer_module_default()).loginPopup,
+                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: (Footer_module_default()).loginPopupContent,
+                    children: [
+                        /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                            children: "Login"
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
+                            children: [
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    className: "form-group",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                            children: "Email:"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                            type: "email",
+                                            className: "form-control",
+                                            required: true
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    className: "form-group",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                            children: "Password:"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
+                                            type: "password",
+                                            className: "form-control",
+                                            required: true
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                    className: "form-actions",
+                                    children: [
+                                        /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                            type: "submit",
+                                            className: "btn btn-success",
+                                            children: "Login"
+                                        }),
+                                        /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                            type: "button",
+                                            className: "btn btn-danger",
+                                            onClick: toggleLoginPopup,
+                                            children: "Cancel"
+                                        })
+                                    ]
+                                })
+                            ]
+                        })
+                    ]
+                })
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (Footer_module_default()).footerBottom,
+                children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                    className: (Footer_module_default()).whiteBorder,
+                    children: "\xa9 AlFurqanAcademy Network Inc. | Privacy Policy | Terms of Service"
                 })
             })
         ]
     });
 };
-const styles = {
-    footer: {
-        backgroundColor: "#000",
-        color: "#fff",
-        padding: "50px 0"
-    },
-    footerContainer: {
-        display: "flex",
-        justifyContent: "space-between",
-        maxWidth: "1200px",
-        margin: "0 auto",
-        padding: "0 20px"
-    },
-    sectionHeadingss: {
-        color: "white"
-    },
-    footerSection: {
-        flex: 1,
-        margin: "0 20px",
-        color: "white"
-    },
-    footerLogo: {
-        flex: 2,
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center"
-    },
-    logoImage: {
-        maxWidth: "150px"
-    },
-    sectionHeading: {
-        fontSize: "18px",
-        fontWeight: "700",
-        marginBottom: "20px",
-        textTransform: "uppercase",
-        color: "#e63946"
-    },
-    list: {
-        listStyleType: "none",
-        padding: 0
-    },
-    socialIcons: {
-        fontSize: "24px",
-        display: "flex",
-        gap: "15px"
-    },
-    footerBottom: {
-        textAlign: "center",
-        marginTop: "50px",
-        padding: "20px 0",
-        color: "#ccc",
-        position: "relative"
-    },
-    whiteBorder: {
-        borderTop: "2px solid white",
-        paddingTop: "10px",
-        color: "#fff"
-    }
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
+/* harmony default export */ const DefaultFooter = (Footer);
 
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
-
-/***/ }),
-
-/***/ 966:
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _DefaultFooter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(965);
-/* harmony import */ var _Footer1__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1294);
-/* harmony import */ var _Footer3__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(599);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_DefaultFooter__WEBPACK_IMPORTED_MODULE_1__]);
-_DefaultFooter__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-const Footer = ({ footer  })=>{
-    switch(footer){
-        default:
-            return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_DefaultFooter__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {});
-    }
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
-
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
-
-/***/ }),
-
-/***/ 1294:
-/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
-
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1664);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+;// CONCATENATED MODULE: ./src/layout/footer/Footer1.js
 
 
 const Footer1 = ()=>{
@@ -1018,16 +1010,9 @@ const Footer1 = ()=>{
         ]
     });
 };
-/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (Footer1)));
+/* harmony default export */ const footer_Footer1 = ((/* unused pure expression or super */ null && (Footer1)));
 
-
-/***/ }),
-
-/***/ 599:
-/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
-
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+;// CONCATENATED MODULE: ./src/layout/footer/Footer3.js
 
 const Footer3 = ()=>{
     return /*#__PURE__*/ _jsxs("div", {
@@ -1310,7 +1295,20 @@ const Footer3 = ()=>{
         ]
     });
 };
-/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (Footer3)));
+/* harmony default export */ const footer_Footer3 = ((/* unused pure expression or super */ null && (Footer3)));
+
+;// CONCATENATED MODULE: ./src/layout/footer/Footer.js
+
+
+
+
+const Footer_Footer = ({ footer  })=>{
+    switch(footer){
+        default:
+            return /*#__PURE__*/ jsx_runtime_.jsx(DefaultFooter, {});
+    }
+};
+/* harmony default export */ const footer_Footer = (Footer_Footer);
 
 
 /***/ }),
@@ -1318,6 +1316,7 @@ const Footer3 = ()=>{
 /***/ 4563:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
@@ -1365,7 +1364,7 @@ const Menus_DaskTopMenusMenus = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("li", {
                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                    href: "#",
+                    href: "/course",
                     children: "Courses"
                 })
             }),
@@ -1403,7 +1402,7 @@ const Menus_DaskTopMenusMenus = ()=>{
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "#",
+                                    href: "/blog-2column",
                                     children: "Blog"
                                 })
                             }),
@@ -1433,7 +1432,7 @@ const Menus_DaskTopMenusMenus = ()=>{
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("li", {
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                    href: "#",
+                                    href: "/contact",
                                     children: "Contact Us"
                                 })
                             })
@@ -1850,6 +1849,7 @@ const Header = ({ header  })=>{
 /***/ 507:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
@@ -2059,6 +2059,7 @@ const MobileToggleMenu = ()=>{
 /***/ 348:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
@@ -2088,6 +2089,7 @@ let useClickOutside = (handler)=>{
 /***/ 8603:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "JV": () => (/* binding */ calender),
 /* harmony export */   "h1": () => (/* binding */ scrollTopFun),
